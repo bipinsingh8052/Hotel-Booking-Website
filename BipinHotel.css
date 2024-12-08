@@ -454,6 +454,334 @@ nav label{
 }
 /* images section */
 
+
+
+
+
+
+
+
+/* footer first */
+
+.footer_first{
+height: 400px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-evenly;
+/* border: 2px solid black; */
+background-color: rgb(255, 255, 255);
+}
+.footer_first .img{
+    height: 90%;
+    /* border: 2px solid black; */
+    width: 45%;
+}
+.footer_first .img img{
+    height: 100%;
+    width: 100%;
+}
+.footer_first .parag{
+    height: 90%;
+    width: 45%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+
+}
+.footer_first .parag h1{
+    font-size: 30px;
+    color: #063375;
+}
+.footer_first .parag p{
+    color: rgb(94, 80, 80);
+}
+.footer_first .parag .country{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 80px;
+}
+.footer_first .parag .country .first h1{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.footer_first .parag .country .first p{
+    color: rgb(15, 73, 165);
+}
+.footer_first .parag .country .second p{
+    color: rgb(15, 73, 165);
+}
+.footer_first .parag .country .second h1{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.footer_first .parag .country_option{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width:100%;
+    /* border: 2px solid black; */
+}
+
+.footer_first .parag .country_option .country_option_one{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+.footer_first .parag .country_option .country_option_one div{
+    padding: 10px;
+}
+
+.footer_first .parag .country_option .country_option_one div p{
+    font-size: 20px;
+    color: #151516;
+}
+.footer_first .parag .country_option .country_option_two{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.footer_first .parag .country_option .country_option_two div{
+    padding: 10px;
+}
+.footer_first .parag .country_option .country_option_two div p{
+    font-size: 20px;
+    color: #151516;
+}
+/* .footer_first .parag .country_option div{
+    width: 40%;
+    height: 50px;
+    border: 2px solid black;
+}
+.footer_first .parag .country_option p{
+    width: 40%;
+    font-size: 20px;
+    border: 2px solid black;
+} */
+
+
+/* footer first */
+
+
+/* main footer  */
+
+.footer_main{
+    height: 600px;
+    width: 100%;
+    background-color: #063375;
+    color: white;
+    /* border: 2px solid black; */
+}
+
+.footer_main .footer_all_hotels{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 9px soild rgb(161, 24, 81);
+}
+.footer_main .footer_all_hotels .heading{
+    height: 50px;
+    padding-left:30px;
+    width: 100%;
+    font-size: 20px;
+    background-color:#063375;
+}
+.footer_main .footer_all_hotels hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer_main .footer_all_hotels .heading h1{
+    font-size: 20px;
+}
+.footer_main .footer_all_hotels .all_hotels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.footer_main .footer_all_hotels .all_hotels .first_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .first_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer_main .footer_all_hotels .all_hotels .second_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .second_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer_main .footer_all_hotels .all_hotels .third_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .third_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer_main .footer_all_hotels .all_hotels .four_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .four_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.footer_main .footer_all_hotels .all_hotels .five_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .five_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.footer_main .footer_all_hotels .all_hotels .six_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .six_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.footer_main .footer_icons{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media{
+    height: 100%;
+    width: 50%;
+    background-color:#063375;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.footer_main .footer_icons .social_media .facbook{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .facbook i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .instagram{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .instagram i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .twitter{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .twitter i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .playstore{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .playstore i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .figma{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .figma i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .last_footer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(184, 188, 191);
+    cursor: pointer;
+}
+
+
+
+/* main footer */
+
 @media screen and (max-width: 768px) {
 
 
@@ -943,6 +1271,334 @@ nav label{
     border-radius: 10px;
 }
 /* images section */
+
+
+
+/* footer first */
+
+.footer_first{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    background-color: rgb(255, 255, 255);
+    }
+    .footer_first .img{
+        height: 40%;
+        /* border: 2px solid black; */
+        width: 100%;
+    }
+    .footer_first .img img{
+        height: 100%;
+        width: 100%;
+    }
+    .footer_first .parag{
+        height: 40%;
+        width: 90%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+    
+    }
+    .footer_first .parag h1{
+        font-size: 30px;
+        color: #063375;
+    }
+    .footer_first .parag p{
+        color: rgb(94, 80, 80);
+    }
+    .footer_first .parag .country{
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 80px;
+    }
+    .footer_first .parag .country .first h1{
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+    }
+    .footer_first .parag .country .first p{
+        color: rgb(15, 73, 165);
+    }
+    .footer_first .parag .country .second p{
+        color: rgb(15, 73, 165);
+    }
+    .footer_first .parag .country .second h1{
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+    }
+    .footer_first .parag .country_option{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        width:100%;
+        /* border: 2px solid black; */
+    }
+    
+    .footer_first .parag .country_option .country_option_one{
+        width: 40%;
+        height: 100%;
+        /* border: 2px solid black; */
+    }
+    
+    .footer_first .parag .country_option .country_option_one div{
+        padding: 10px;
+    }
+    
+    .footer_first .parag .country_option .country_option_one div p{
+        font-size: 20px;
+        color: #151516;
+    }
+    .footer_first .parag .country_option .country_option_two{
+        width: 40%;
+        height: 100%;
+        /* border: 2px solid black; */
+    }
+    .footer_first .parag .country_option .country_option_two div{
+        padding: 10px;
+    }
+    .footer_first .parag .country_option .country_option_two div p{
+        font-size: 20px;
+        color: #151516;
+    }
+    /* .footer_first .parag .country_option div{
+        width: 40%;
+        height: 50px;
+        border: 2px solid black;
+    }
+    .footer_first .parag .country_option p{
+        width: 40%;
+        font-size: 20px;
+        border: 2px solid black;
+    } */
+    
+    
+    /* footer first */
+
+
+
+
+
+    /* main footer  */
+
+.footer_main{
+    height: 2400px;
+    width: 100%;
+    background-color: #063375;
+    color: white;
+    /* border: 2px solid black; */
+}
+
+.footer_main .footer_all_hotels{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 9px soild rgb(161, 24, 81);
+}
+.footer_main .footer_all_hotels .heading{
+    height: 50px;
+    padding-left:30px;
+    width: 100%;
+    font-size: 20px;
+    background-color:#063375;
+}
+.footer_main .footer_all_hotels hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer_main .footer_all_hotels .heading h1{
+    font-size: 20px;
+}
+.footer_main .footer_all_hotels .all_hotels{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.footer_main .footer_all_hotels .all_hotels .first_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .first_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer_main .footer_all_hotels .all_hotels .second_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .second_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer_main .footer_all_hotels .all_hotels .third_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .third_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer_main .footer_all_hotels .all_hotels .four_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .four_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.footer_main .footer_all_hotels .all_hotels .five_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .five_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.footer_main .footer_all_hotels .all_hotels .six_hotels p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(172, 162, 162);
+    /* text-decoration: underline; */
+}
+.footer_main .footer_all_hotels .all_hotels .six_hotels p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.footer_main .footer_icons{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media{
+    height: 100%;
+    width: 50%;
+    background-color:#063375;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.footer_main .footer_icons .social_media .facbook{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .facbook i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .instagram{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .instagram i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .twitter{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .twitter i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .playstore{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .playstore i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .figma{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .figma i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .last_footer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(184, 188, 191);
+    cursor: pointer;
+}
+
+
+
+/* main footer */
     
 }
 
@@ -1412,6 +2068,189 @@ nav label{
  /* images section */
 
 
-   
+   /* footer first  */
+   .footer_first .parag p{
+    color: rgb(94, 80, 80);
+}
+.footer_first .parag .country{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 80px;
+}
+.footer_first .parag .country .first h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.footer_first .parag .country .first p{
+    color: rgb(15, 73, 165);
+}
+.footer_first .parag .country .second p{
+    color: rgb(15, 73, 165);
+}
+.footer_first .parag .country .second h1{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+.footer_first .parag .country_option{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width:100%;
+    /* border: 2px solid black; */
+}
+
+.footer_first .parag .country_option .country_option_one{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+.footer_first .parag .country_option .country_option_one div{
+    padding: 10px;
+}
+
+.footer_first .parag .country_option .country_option_one div p{
+    font-size: 18px;
+    color: #151516;
+}
+.footer_first .parag .country_option .country_option_two{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.footer_first .parag .country_option .country_option_two div{
+    padding: 10px;
+}
+.footer_first .parag .country_option .country_option_two div p{
+    font-size: 18px;
+    color: #151516;
+}
+/* .footer_first .parag .country_option div{
+    width: 40%;
+    height: 50px;
+    border: 2px solid black;
+}
+.footer_first .parag .country_option p{
+    width: 40%;
+    font-size: 20px;
+    border: 2px solid black;
+} */
+
+
+/* footer first */
+
+
+/* footer main */
+.footer_main .footer_icons{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media{
+    height: 50%;
+    width: 100%;
+    background-color:#063375;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid black; */
+}
+.footer_main .footer_icons .social_media .facbook{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .facbook i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .instagram{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .instagram i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .twitter{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .twitter i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .playstore{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .playstore i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .social_media .figma{
+
+    height: 50%;
+    width: 50px;
+    border: 2px solid rgb(205, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.footer_main .footer_icons .social_media .figma i{
+    font-size: 25px;
+}
+
+.footer_main .footer_icons .last_footer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: antiquewhite;
+    color:#063375;
+    cursor: pointer;
+}
+
+
+
+/* main footer */
     
 }
