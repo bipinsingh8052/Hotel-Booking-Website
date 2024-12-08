@@ -196,6 +196,264 @@ nav label{
     cursor: pointer;
 }
 
+
+
+
+/* offer section */
+
+.offers{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    padding-left: 20px;
+}
+.offers h1{
+    font-size: 30px;
+    color: #063375;
+}
+.offers p{
+    color: rgb(121, 116, 116);
+}
+.offers .box{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.offers .box .box_one{
+    height: 270px;
+    width: 45%;
+    border: 0.5px solid rgba(139, 129, 129, 0.315);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.offers .box .box_one .paragrapgh{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.offers .box .box_one .paragrapgh h1{
+    font-size: 28px;
+    color: black;
+}
+.offers .box .box_one .paragrapgh p{
+    font-size: 20px;
+    color: rgb(47, 35, 35);
+}
+.offers .box .box_one .paragrapgh button{
+    padding: 7%;
+    background-color: #063375;
+    color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.offers .box .box_one .paragrapgh button:hover{
+    background-color: #003b95;
+    cursor: pointer;
+}
+.offers .box .box_one .image{
+    height: 80%;
+    width: 45%;
+}
+.offers .box .box_one .image img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.offers .box .box_two{
+    height: 270px;
+    width:45%;
+    border-radius: 10px;
+    border: 0.5px solid rgba(139, 129, 129, 0.315);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.offers .box .box_two .paragrapgh{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.offers .box .box_two .paragrapgh h1{
+    font-size: 27px;
+    color: black;
+}
+.offers .box .box_two .paragrapgh p{
+    font-size: 16px;
+    color: rgb(147, 127, 127);
+}
+.offers .box .box_two .paragrapgh button{
+    padding: 7%;
+    background-color: #063375;
+    color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.offers .box .box_two .paragrapgh button:hover{
+    background-color: #003b95;
+    cursor: pointer;
+}
+.offers .box .box_two .image{
+    height: 80%;
+    width: 45%;
+}
+.offers .box .box_two .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* offer section */
+
+
+/* images section */
+
+.Images{
+    height: 1000px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.Images .Images_one{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Images .Images_one .image_inner{
+    height: 100%;
+    width: 90%;
+    
+}
+.Images .Images_one .image_inner img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.Images .Images_two{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Images .Images_two .image_inner{
+    height: 100%;
+    width: 90%;
+}
+.Images .Images_two .image_inner img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.Images .log{
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: #063375;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.Images .log .log_first{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid black; */
+}
+.Images .log .log_first .para{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Images .log .log_first .para h1{
+    color: white;
+}
+
+.Images .log .log_first .para p{
+    color: rgb(194, 188, 188);
+}
+
+.Images .log .log_first .icon {
+    height: 100%;
+    width: 40px;
+    border-radius: 50%;
+}
+.Images .log .log_first .icon img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.Images .log .log_second{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.Images .log .log_second input{
+    height: 80%;
+    width: 70%;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.Images .log .log_second button{
+    height: 80%;
+    width: 20%;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+/* images section */
+
 @media screen and (max-width: 768px) {
 
 
@@ -418,6 +676,273 @@ nav label{
         background-color: #063375;
         cursor: pointer;
     }
+
+
+
+
+     /* offer section */
+
+.offers{
+    height: 800px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    padding-left: 20px;
+}
+.offers h1{
+    font-size: 30px;
+    color: #063375;
+}
+.offers p{
+    color: rgb(121, 116, 116);
+}
+.offers .box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.offers .box .box_one{
+    height: 270px;
+    width: 90%;
+    border: 0.5px solid rgba(139, 129, 129, 0.315);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.offers .box .box_one .paragrapgh{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.offers .box .box_one .paragrapgh h1{
+    font-size: 28px;
+    color: black;
+}
+.offers .box .box_one .paragrapgh p{
+    font-size: 20px;
+    color: rgb(47, 35, 35);
+}
+.offers .box .box_one .paragrapgh button{
+    padding: 7%;
+    background-color: #063375;
+    color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.offers .box .box_one .paragrapgh button:hover{
+    background-color: #003b95;
+    cursor: pointer;
+}
+.offers .box .box_one .image{
+    height: 80%;
+    width: 45%;
+}
+.offers .box .box_one .image img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.offers .box .box_two{
+    height: 270px;
+    width:90%;
+    border-radius: 10px;
+    border: 0.5px solid rgba(139, 129, 129, 0.315);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.offers .box .box_two .paragrapgh{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.offers .box .box_two .paragrapgh h1{
+    font-size: 27px;
+    color: black;
+}
+.offers .box .box_two .paragrapgh p{
+    font-size: 16px;
+    color: rgb(147, 127, 127);
+}
+.offers .box .box_two .paragrapgh button{
+    padding: 7%;
+    background-color: #063375;
+    color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.offers .box .box_two .paragrapgh button:hover{
+    background-color: #003b95;
+    cursor: pointer;
+}
+.offers .box .box_two .image{
+    height: 80%;
+    width: 45%;
+}
+.offers .box .box_two .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* offer section */
+
+
+
+
+
+
+/* images section */
+
+.Images{
+    height: 800px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.Images .Images_one{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Images .Images_one .image_inner{
+    height: 80%;
+    width: 90%;
+    
+}
+.Images .Images_one .image_inner img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.Images .Images_two{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Images .Images_two .image_inner{
+    height: 80%;
+    width: 90%;
+}
+.Images .Images_two .image_inner img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.Images .log{
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: #063375;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.Images .log .log_first{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid black; */
+}
+.Images .log .log_first .para{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Images .log .log_first .para h1{
+    font-size: 15px;
+    color: white;
+}
+
+.Images .log .log_first .para p{
+    color: rgb(194, 188, 188);
+    font-size: 12px;
+}
+
+.Images .log .log_first .icon {
+    height: 100%;
+    width: 40px;
+    border-radius: 50%;
+}
+.Images .log .log_first .icon img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.Images .log .log_second{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.Images .log .log_second input{
+    height: 80%;
+    width: 70%;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.Images .log .log_second button{
+    height: 80%;
+    width: 20%;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+/* images section */
     
 }
 
@@ -645,5 +1170,248 @@ nav label{
         background-color: #063375;
         cursor: pointer;
     }
+
+
+       /* offer section */
+
+.offers{
+    height: 800px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    padding-left: 20px;
+}
+.offers h1{
+    font-size: 30px;
+    color: #063375;
+}
+.offers p{
+    color: rgb(121, 116, 116);
+}
+.offers .box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.offers .box .box_one{
+    height: 270px;
+    width: 90%;
+    border: 0.5px solid rgba(139, 129, 129, 0.315);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.offers .box .box_one .paragrapgh{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.offers .box .box_one .paragrapgh h1{
+    font-size: 25px;
+    color: black;
+}
+.offers .box .box_one .paragrapgh p{
+    font-size: 15px;
+    color: rgb(47, 35, 35);
+}
+.offers .box .box_one .paragrapgh button{
+    padding: 5%;
+    background-color: #063375;
+    color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+.offers .box .box_two .paragrapgh h1{
+    font-size: 20px;
+    color: black;
+}
+.offers .box .box_two .paragrapgh p{
+    font-size: 12px;
+    color: rgb(147, 127, 127);
+}
+.offers .box .box_two .paragrapgh button{
+    padding: 5%;
+    background-color: #063375;
+    color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.offers .box .box_two .paragrapgh button:hover{
+    background-color: #003b95;
+    cursor: pointer;
+}
+.offers .box .box_two .image{
+    height: 70%;
+    width: 45%;
+}
+.offers .box .box_two .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* offer section */
+
+
+/* images section */
+
+
+
+/* images section */
+
+.Images{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.Images .Images_one{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Images .Images_one .image_inner{
+    height: 80%;
+    width: 90%;
+    
+}
+.Images .Images_one .image_inner img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.Images .Images_two{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Images .Images_two .image_inner{
+    height: 80%;
+    width: 90%;
+}
+.Images .Images_two .image_inner img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.Images .log{
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: #063375;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.Images .log .log_first{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid black; */
+}
+.Images .log .log_first .para{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Images .log .log_first .para h1{
+    font-size: 10px;
+    color: white;
+}
+
+.Images .log .log_first .para p{
+    color: rgb(194, 188, 188);
+    font-size: 8px;
+}
+
+.Images .log .log_first .icon {
+    height: 100%;
+    width: 40px;
+    border-radius: 50%;
+}
+.Images .log .log_first .icon img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.Images .log .log_second{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.Images .log .log_second input{
+    height: 80%;
+    width: 70%;
+    padding-left: 5px;
+    font-size: 8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.Images .log .log_second button{
+    height: 80%;
+    width: 20%;
+    font-size: 7px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 10px;
+}
+/* images section */
+ /* images section */
+
+
+   
     
 }
