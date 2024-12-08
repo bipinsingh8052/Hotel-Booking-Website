@@ -1,0 +1,649 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#click{
+    display: none;
+}
+nav {
+    /* height: 200px; */
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#003b95;
+}
+nav .upper{
+    height: 100px;
+    width: 80%;
+    padding: 10px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .upper h1{
+    font-family: cursive;
+    color: whitesmoke;
+}
+nav .upper ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+} 
+nav .upper ul li{
+    list-style: none;
+}
+nav .upper ul li a{
+    text-decoration: none;
+    /* font-style: oblique; */
+    color: white;
+}
+
+.flage a img{
+    height: 25px;
+    width: 25px;
+    /* border:0.5px solid black ; */
+    border-radius: 50%;
+}
+.question a{
+
+    /* padding: 5px; */
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border: 0.5px solid whitesmoke;
+    border-radius: 50%;
+    font-weight: 800;
+    color: whitesmoke;
+}
+.list a{
+    font-weight: 500;
+}
+.button a button{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    color: blueviolet;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.button a button:hover{
+    border: none;
+    cursor: pointer;
+    color:white;
+    background-color: rgb(92, 132, 132);
+}
+.sign a button{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    color: blueviolet;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.sign a button:hover{
+    border: none;
+    cursor: pointer;
+    color:white;
+    background-color: rgb(92, 132, 132);
+}
+
+nav .option{
+    height: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* border:2px solid rgb(43, 177, 10); */
+}
+nav .option .soption{
+    height: 50%;
+    width: 90%;
+    /* border: 2px solid rgb(181, 172, 172); */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+}
+nav .option .soption p{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    color: white;
+    border-radius: 20px;
+    border: 0.5px solid transparent;
+}
+nav .option .soption p:hover{
+    cursor: pointer;
+    border: 0.5px solid white;
+    background-color:rgba(40, 21, 59, 0.774);
+}
+nav .option .soption .stays{
+    background-color: rgba(57, 25, 86, 0.89);
+    border: 0.5px solid white;
+}
+nav .option .soption p span{
+   font-family: cursive;
+    font-weight: 100;
+}
+nav label{
+    display: none;
+}
+
+.heading{
+    height: 200px;
+    background-color:#003b95 ;
+    color: white;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    
+}
+.heading h1{
+    font-size: 45px;
+}
+.heading p{
+    font-size: 25px;
+}
+
+.options {
+    position: relative;
+    top: -30px;
+    display: flex;
+    /* gap: 20px; */
+    padding-left: 80px;
+}
+.options select{
+    height: 55px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid rgb(62, 203, 71);
+}
+.options button{
+    /* padding: 10px; */
+    padding-left: 20px;
+    outline: none;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color:#003b95;
+    color: white;
+    border:3px solid rgb(78, 191, 60) ;
+}
+.options button:hover{
+    background-color: #063375;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    #click{
+        display: none;
+    }
+    nav {
+        /* height: 200px; */
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:#003b95;
+    }
+    nav .upper{
+        height: 100px;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav .upper h1{
+        font-family: cursive;
+        color: whitesmoke;
+    }
+    nav .upper ul{
+        /* display: none; */
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+        color: black;
+       
+    } 
+    nav .upper ul li{
+        display: none;
+        background-color:#7e8794e6;
+        top: 0px;
+        width: 100%;
+        height: 250px;
+        /* padding: 10px; */
+        position: absolute;
+        list-style: none;
+    }
+    nav .upper ul li a{
+        text-decoration: none;
+        /* font-style: oblique; */
+        color: rgb(44, 21, 21);
+    }
+    
+    .flage a img{
+        height: 25px;
+        width: 25px;
+        /* border:0.5px solid black ; */
+        border-radius: 50%;
+    }
+    .question a{
+    
+        /* padding: 5px; */
+        padding-left: 5px;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        border: 0.5px solid whitesmoke;
+        border-radius: 50%;
+        font-weight: 800;
+        color: whitesmoke;
+    }
+    .list a{
+        font-weight: 500;
+    }
+    .button a button{
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        color: blueviolet;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+    }
+    .button a button:hover{
+        border: none;
+        cursor: pointer;
+        color:white;
+        background-color: rgb(92, 132, 132);
+    }
+    .sign a button{
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        color: blueviolet;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+    }
+    .sign a button:hover{
+        border: none;
+        cursor: pointer;
+        color:white;
+        background-color: rgb(92, 132, 132);
+    }
+    
+    nav .option{
+        /* display: none; */
+       
+        
+        /* height: 0px; */
+        
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        
+        /* border:2px solid rgb(43, 177, 10); */
+    }
+    nav .option .soption{
+        /* display: none; */
+        /* height: 50%;
+        width: 90%; */
+        /* border: 2px solid rgb(181, 172, 172); */
+        display: flex;
+        flex-direction: column;
+        justify-content: start; 
+        align-items: start; 
+        gap: 20px;
+      
+    }
+    nav .option .soption p{
+        /* display: none; */
+        /* padding: 10px; */
+        display: flex;
+        gap: 10px;
+        color: white;
+        /* border-radius: 20px; */
+        border: 0.5px solid transparent;
+        height: 400px;
+        width: 100%;
+    }
+    nav .option .soption i{
+        display: none;
+    }
+    nav .option .soption p:hover{
+    
+        cursor: pointer;
+        border: 0.5px solid white;
+        background-color:rgba(40, 21, 59, 0.774);
+    }
+    nav .option .soption .stays{
+        display: none;
+        background-color:#7e8794e6;
+        position: absolute;
+        top:200px;
+        z-index: 10;
+        background-color: rgba(57, 25, 86, 0.89);
+        border: 0.5px solid white;
+    }
+    nav .option .soption p span{
+        display: none;
+        background-color:#7e8794e6;
+        position: absolute;
+        top:200px;
+        z-index: 10;
+       font-family: cursive;
+        font-weight: 100;
+    }
+    nav label{
+        display: block;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+    }
+    nav label:hover{   
+        color: rgb(219, 218, 216);
+    }
+    #click:checked ~ nav .upper ul li {
+        display: block;
+        
+    }
+
+    .options {
+        width: 100%;
+        position: relative;
+        top: -20px;
+        display: flex;
+        flex-direction: column;
+        /* gap: 20px; */
+        padding-left: 0px;
+    }
+    .options select{
+        height: 55px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+        border: 2px solid rgb(62, 203, 71);
+    }
+    .options button{
+        /* padding: 10px; */
+        padding-left: 20px;
+        outline: none;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        font-size: 18px;
+        background-color:#003b95;
+        color: white;
+        border:3px solid rgb(78, 191, 60) ;
+    }
+    .options button:hover{
+        background-color: #063375;
+        cursor: pointer;
+    }
+    
+}
+
+
+@media screen and (max-width: 420px) {
+
+
+    #click{
+        display: none;
+    }
+    nav {
+        /* height: 200px; */
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:#003b95;
+    }
+    nav .upper{
+        height: 100px;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav .upper h1{
+        font-family: cursive;
+        color: whitesmoke;
+    }
+    nav .upper ul{
+        /* display: none; */
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+        color: black;
+       
+    } 
+    nav .upper ul li{
+        display: none;
+        background-color:#7e8794e6;
+        top: 0px;
+        width: 100%;
+        height: 250px;
+        /* padding: 10px; */
+        position: absolute;
+        list-style: none;
+    }
+    nav .upper ul li a{
+        text-decoration: none;
+        /* font-style: oblique; */
+        color: rgb(44, 21, 21);
+    }
+    
+    .flage a img{
+        height: 25px;
+        width: 25px;
+        /* border:0.5px solid black ; */
+        border-radius: 50%;
+    }
+    .question a{
+    
+        /* padding: 5px; */
+        padding-left: 5px;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        border: 0.5px solid whitesmoke;
+        border-radius: 50%;
+        font-weight: 800;
+        color: whitesmoke;
+    }
+    .list a{
+        font-weight: 500;
+    }
+    .button a button{
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        color: blueviolet;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+    }
+    .button a button:hover{
+        border: none;
+        cursor: pointer;
+        color:white;
+        background-color: rgb(92, 132, 132);
+    }
+    .sign a button{
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        color: blueviolet;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+    }
+    .sign a button:hover{
+        border: none;
+        cursor: pointer;
+        color:white;
+        background-color: rgb(92, 132, 132);
+    }
+    
+    nav .option{
+        /* display: none; */
+       
+        
+        /* height: 0px; */
+    
+        
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        
+        /* border:2px solid rgb(43, 177, 10); */
+    }
+    nav .option .soption{
+        /* display: none; */
+        /* height: 50%;
+        width: 90%; */
+        /* border: 2px solid rgb(181, 172, 172); */
+        display: flex;
+        flex-direction: column;
+        justify-content: start; 
+        align-items: start; 
+        gap: 20px;
+      
+    }
+    nav .option .soption p{
+        /* display: none; */
+        /* padding: 10px; */
+        display: flex;
+        gap: 10px;
+        color: white;
+        /* border-radius: 20px; */
+        border: 0.5px solid transparent;
+        height: 400px;
+        width: 100%;
+    }
+    nav .option .soption i{
+        display: none;
+    }
+    nav .option .soption p:hover{
+    
+        cursor: pointer;
+        border: 0.5px solid white;
+        background-color:rgba(40, 21, 59, 0.774);
+    }
+    nav .option .soption .stays{
+        display: none;
+        background-color:#7e8794e6;
+        position: absolute;
+        top:200px;
+        z-index: 10;
+        background-color: rgba(57, 25, 86, 0.89);
+        border: 0.5px solid white;
+    }
+    nav .option .soption p span{
+        display: none;
+        background-color:#7e8794e6;
+        position: absolute;
+        top:200px;
+        z-index: 10;
+       font-family: cursive;
+        font-weight: 100;
+    }
+    nav label{
+        display: block;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+    }
+    nav label:hover{   
+        color: rgb(219, 218, 216);
+    }
+    #click:checked ~ nav .upper ul li {
+        display: block;
+        
+    }
+
+    .options {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+        /* gap: 20px; */
+        padding-left: 0px;
+    }
+    .options select{
+        height: 55px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+        border: 2px solid rgb(62, 203, 71);
+    }
+    .options button{
+        /* padding: 10px; */
+        padding-left: 20px;
+        outline: none;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        font-size: 18px;
+        background-color:#003b95;
+        color: white;
+        border:3px solid rgb(78, 191, 60) ;
+    }
+    .options button:hover{
+        background-color: #063375;
+        cursor: pointer;
+    }
+    
+}
