@@ -3,39 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Sign Up </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="login.css">
-    <script src="Login.js" defer></script>
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js" defer ></script>
 </head>
-<body >
+<body>
     <div class="container">
         <div class="login">
         <div class="heading">
-            <h1 class="log">Login</h1>
-            <h1 class="reg" >Register</h1>
-        </div>
-        <form action="./BipinHotel.html" id="login_form">
+            <h1 class="log" onmouseleave="login('.log')" onmouseover="loginout('.log')">Sign Up</h1>
 
-            <div class="email">
-             <p>Enter your Email Id</p>
-             <input type="text" placeholder="User Email"  required>
+        </div>
+        <form action="./login.html" id="login_form">
+
+            <div class="FIRSTNAME">
+             <p>Enter Your First Name</p>
+             <input type="text" placeholder="Please write first name"  >
             </div>
+
+            <div class="LASTNAME">
+                <p>Enter Your Mobile No</p>
+                <input type="number" placeholder="Please write Mobile No.. "  >
+               </div>
+
+               <div class="email">
+                <p>Enter your Email Id</p>
+                <input type="text" placeholder="User Email"  >
+               </div>
+
+               
+
             <div class="password">
-             <p>Enter your Password</p>
+             <p>Enter Your Password</p>
              <div class="main_password">
-                 <input type="password" placeholder=" Password" required>
+                 <input type="password" placeholder=" Password" >
              
-             <div class="eyes">
+             <!-- <div class="eyes">
                  <i class="fa-solid fa-eye-slash" id="eyes" onclick="eyes()"></i>
              <i class="fa-solid fa-eye" id="eyessecond" onclick="eyes()"></i>
-             </div>
+             </div> -->
              </div>
             </div>
-            <button  onmouseleave="h()" onmouseover="j()"  onclick=" return login();">Login</button>
-            <a href="#">Forget password</a>
+            <div class="C-password">
+                <p>Confirm Password</p>
+                <input type="password" placeholder="Confirm password"  >
+                <!-- <div class="eyes">
+                    <i class="fa-solid fa-eye-slash" id="eyes" onclick="eyes()"></i>
+                    <i class="fa-solid fa-eye" id="eyessecond" onclick="eyes()"></i>
+                </div> -->
+               </div>
+            <button   onclick=" return submitfrom();" >Submit</button>
          </form>
-
         </div>
     </div>
     

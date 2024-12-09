@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://q-xx.bstatic.com/xdata/images/hotel/max500/497086944.jpg?k=e5a61c58b27f19f51a481483294f6c2b262eef2a6761bf5608d2789fcb9396cd&o=");
+    background-size: cover;
+  }
+  .container .login {
+    height: 500px;
+    width: 500px;
+    border: 0.5px solid black;
+    background-color: transparent;
+    box-shadow: -1px 1px 12px 4px oldlace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .login .heading {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: cursive;
+  }
+  .container .login .heading .log {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container .login .heading .reg {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container .login form {
+    color: white;
+    display: flex;
+    height: 80%;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .container .login form .email {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .container .login form .email input {
+    height: 25px;
+    width: 100%;
+    outline: none;
+    border: 0.5px solid black;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+
+
+  .container .login form .FIRSTNAME {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .container .login form .FIRSTNAME input {
+    height: 25px;
+    width: 100%;
+    outline: none;
+    border: 0.5px solid black;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  .container .login form .LASTNAME {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .container .login form .LASTNAME input {
+    height: 25px;
+    width: 100%;
+    outline: none;
+    border: 0.5px solid black;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+
+
+  
+
+
+
+  .container .login form .password {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .container .login form .password .main_password {
+    width: 100%;
+    height: 26.5px;
+    border: 0.5px solid black;
+    background-color: white;
+    display: flex;
+  }
+  .container .login form .password .main_password .eyes {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+  }
+  .container .login form .password .main_password .eyes i {
+    cursor: pointer;
+  }
+  .container .login form .password .main_password .eyes #eyes {
+    display: none;
+  }
+  .container .login form .password .main_password input {
+    height: 25px;
+    width: 90%;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  .container .login form button {
+    width: 90%;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: 0.5px solid transparent;
+  }
+  .container .login form button:hover{
+    cursor: pointer;
+  }
+  .container .login form a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .container .login form a:hover {
+    text-decoration: underline;
+  }/*# sourceMappingURL=login.css.map */
+
+
+
+  .container .login form .C-password {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .container .login form .C-password input {
+    height: 25px;
+    width: 100%;
+    outline: none;
+    border: 0.5px solid black;
+    padding-left: 10px;
+    font-size: 15px;
+  }

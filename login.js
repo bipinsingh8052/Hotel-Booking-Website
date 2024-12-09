@@ -20,36 +20,37 @@
     
 // })
 
-// function login(){
-//     let a =document.querySelector(".email input");
-//     let b= document.querySelector(".password input");
-//     let data = JSON.parse(localStorage.getItem("libary"));
-//     console.log(data.eamil);
-//     console.log(data.password)
-//     console.log(data);
-//     console.log(a.value,b.value);
-//     if(!(a.value == data.eamil)){
-//         a.style.color="red";
-//         window.alert("Please Enter  again email")
-//         a.focus();
-//         a.value="";
-//        return false;
+function login(){
+    let a =document.querySelector(".email input");
+    let b= document.querySelector(".password input");
+    let data = JSON.parse(localStorage.getItem("libary"));
+    console.log(data);
+    console.log(data.eamil);
+    console.log(data.password)
+    console.log(data);
+    console.log(a.value,b.value);
+    if(!(a.value == data.eamil)){
+        a.style.color="red";
+        window.alert("Please Enter  again email")
+        a.focus();
+        a.value="";
+       return false;
         
-//     }
-//     if(!(b.value == data.password)){
-//         b.style.color="red";
-//         window.alert("Please Enter  again password")
-//         b.focus();
-//         b.value="";
-//        return false;
+    }
+    if(!(b.value == data.password)){
+        b.style.color="red";
+        window.alert("Please Enter  again password")
+        b.focus();
+        b.value="";
+       return false;
         
-//     }
-//     // let c= document.querySelector("form");
-//     // console.log(c.setAttribute("action","/first_page/home_page_/index.html"));
-//     // console.log(c);
-//     return true;
+    }
+    // let c= document.querySelector("form");
+    // console.log(c.setAttribute("action","/first_page/home_page_/index.html"));
+    // console.log(c);
+    return true;
 
-// }
+}
 
 function eyes(){
     let a=document.querySelector(".password .main_password #eyes");

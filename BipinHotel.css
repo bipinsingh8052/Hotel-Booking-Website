@@ -998,7 +998,7 @@ background-color: rgb(255, 255, 255);
 
 
 .show_outer{
-    position: absolute;
+    position: fixed;
     top: 0px;
     z-index: 100;
     height: 100vh;
@@ -1009,7 +1009,7 @@ background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items:center;
-    display: none;
+    /* display: none; */
 }
 .show_outer .show{
     height: 500px;
@@ -1409,23 +1409,32 @@ background-color: rgb(255, 255, 255);
     /* border: 2px solid black; */
     background-color: transparent;
     /* background-color: brown; */
+    /* display: flex;
+    justify-content: center;
+    align-items:center; */
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     border-radius: 10px;
-    display: none;
+    /* display: none; */
 
 }
 .show_data_list .all_data_inner{
     height: 500px;
     width: 700px;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
     /* border-radius: 14px; */
-    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     /* border: 2px solid black; */
 }
 .show_data_list .all_data_inner .data_close{
     height: 10%;
-   
     width: 100%;
     background-color: rgba(196, 204, 186, 0.837);
     /* border: 2px solid black; */
