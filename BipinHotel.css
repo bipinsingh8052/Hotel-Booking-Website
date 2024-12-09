@@ -980,6 +980,20 @@ background-color: rgb(255, 255, 255);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* show card  */
 
 
@@ -1371,40 +1385,73 @@ background-color: rgb(255, 255, 255);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* show data */
+
 .show_data_list{
-    position: absolute;
+    position: fixed;
     top: 0px;
     z-index: 100;
     height: 100vh;
     width:100%;
     /* border: 2px solid black; */
     background-color: transparent;
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     justify-content: center;
     align-items:center;
+    border-radius: 10px;
+    display: none;
 
 }
 .show_data_list .all_data_inner{
     height: 500px;
     width: 700px;
-    border: 2px solid black;
+    /* border-radius: 14px; */
+    
+    /* border: 2px solid black; */
 }
 .show_data_list .all_data_inner .data_close{
     height: 10%;
+   
     width: 100%;
-    border: 2px solid black;
+    background-color: rgba(196, 204, 186, 0.837);
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.show_data_list .all_data_inner .data_close i{
+    padding: 10px;
+    font-size: 35px;
+}
+.show_data_list .all_data_inner .data_close i:hover{
+    color: #063375;
+    cursor: pointer;
 }
 .show_data_list .all_data_inner .data_Show{
     height: 90%;
     width: 100%;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: rgb(143, 139, 139);
     display: flex;
 }
 .show_data_list .all_data_inner .data_Show .images_all{
     height: 100%;
     width: 50%;
-    background-color: #7e8794e6;
+    /* background-color: #7e8794e6; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1412,13 +1459,17 @@ background-color: rgb(255, 255, 255);
 .show_data_list .all_data_inner .data_Show .images_all .big_images{
     height:75%;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+.show_data_list .all_data_inner .data_Show .images_all .big_images img{
+    height: 100%;
+    width: 100%;
 }
 .show_data_list .all_data_inner .data_Show .images_all  .all_images{
 
     height: 20%;
     width: 100%;
-    background-color: #eb2138;
+    /* background-color: #eb2138; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1427,39 +1478,259 @@ background-color: rgb(255, 255, 255);
 .show_data_list .all_data_inner .data_Show .images_all  .all_images .image_one{
     height: 100%;
     width: 18%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border: 0.2px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_one img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
 }
 .show_data_list .all_data_inner .data_Show .images_all  .all_images .image_two{
     height: 100%;
     width: 18%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border: 0.2px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_two img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
 }
 
 .show_data_list .all_data_inner .data_Show .images_all  .all_images .image_three{
     height: 100%;
     width: 18%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border: 0.2px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_three img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
 }
 
 .show_data_list .all_data_inner .data_Show .images_all  .all_images .image_four{
     height: 100%;
     width: 18%;
-    border: 1px solid black;
+    border: 0.2px solid transparent;
+    /* border: 1px solid black; */
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_four img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
 }
 
 .show_data_list .all_data_inner .data_Show .images_all  .all_images .image_five{
     height: 100%;
     width: 18%;
-    border: 1px solid black;
+    order: 0.2px solid transparent;
+    /* border: 1px solid black; */
 }
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_five img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
 
 
 .show_data_list .all_data_inner .data_Show .info_of_hotels{
     height: 100%;
     width: 50%;
-    background-color: rgb(7, 53, 53);
+    /* background-color: rgb(7, 53, 53); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 10px;
 }
 
+.show_data_list .all_data_inner .data_Show .info_of_hotels .name_addre{
+    height: 22%;
+    width: 100%;
+    /* font-size: 25px;
+    border: 2px solid black; */
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #003b95; */
+    
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .name_addre h1{
+    font-size: 25px;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .name_addre  p{
+    height: 32%;
+    width: 100%;
+    font-size: 15px;
+    /* background-color: rgb(255, 255, 255); */
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel{
+    height: 7%;
+    width: 100%;
+    /* border: 1px solid white; */
+    /* background-color: whitesmoke; */
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel p{
+    font-size: 8px;
+    padding: 5px;
+    border: none;
+    background-color: #063375;
+    color: white;
+    border-radius: 2px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel p i{
+    color: gold;
+    text-align: center;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel span{
+    font-size: 7px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel pre{
+    font-size: 8px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info{
+
+    height: 55%;
+    width: 100%;
+    /* border: 2px solid white; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow-y: scroll;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info h1{
+    border-bottom: 0.2px solid whitesmoke;
+    font-size: 25px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option{
+    height: 35%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .room_size{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 15px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .room_size h1{
+    font-size: 13px;
+    border: none;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .room_size p{
+    font-size: 12px;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .bed{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 15px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .bed h1{
+    font-size: 13px;
+    border: none;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .bed p{
+    font-size: 12px;
+}
+
+
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .smoking{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 15px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .smoking h1{
+    font-size: 13px;
+    border: none;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .smoking p{
+    font-size: 12px;
+}
+
+
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .about_hotel{
+    height: 120%;
+    width: 100%;
+    /* background-color: #063375; */
+    /* border: 1px solid black; */
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .about_hotel .all_info{
+    display: flex;flex-direction: column;
+    gap: 10px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .about_hotel .all_info p{
+    font-size: 12px;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price p{
+    font-size: 27px;
+    font-weight: 600;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price del{
+    font-size: 20px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price span{
+    font-size: 20px;
+    color: greenyellow;
+}
+
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color:#063375;
+    color: white;
+    border: 0.5px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels button:hover{
+   /* color: black; */
+   border: 0.001px solid black;
+   cursor: pointer;
+   color: #e5e0e0;
+}
 
 /* show card */
 
@@ -2306,7 +2577,7 @@ background-color: rgb(255, 255, 255);
 
 
 .show_outer{
-    position: absolute;
+    position: fixed;
     top: 0px;
     z-index: 100;
     height: 1000px;
@@ -2694,6 +2965,345 @@ background-color: rgb(255, 255, 255);
 
 
 
+
+/* show card */
+
+
+
+
+
+
+.show_data_list{
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    height: 100vh;
+    width:100%;
+    /* border: 2px solid black; */
+    background-color: transparent;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+
+}
+.show_data_list .all_data_inner{
+    height: 700px;
+    width: 100%;
+    /* border-radius: 14px; */
+    
+    /* border: 2px solid black; */
+}
+.show_data_list .all_data_inner .data_close{
+    height: 10%;
+   
+    width: 100%;
+    background-color: rgba(196, 204, 186, 0.837);
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.show_data_list .all_data_inner .data_close i{
+    padding: 10px;
+    font-size: 35px;
+}
+.show_data_list .all_data_inner .data_close i:hover{
+    color: #063375;
+    cursor: pointer;
+}
+.show_data_list .all_data_inner .data_Show{
+    height: 90%;
+    width: 100%;
+    /* background-color: #ffffff; */
+    background-color: rgb(143, 139, 139);
+    display: flex;
+    flex-direction: column;
+}
+.show_data_list .all_data_inner .data_Show .images_all{
+    height: 50%;
+    width: 100%;
+    /* background-color: #7e8794e6; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+.show_data_list .all_data_inner .data_Show .images_all .big_images{
+    height:75%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.show_data_list .all_data_inner .data_Show .images_all .big_images img{
+    height: 100%;
+    width: 100%;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images{
+
+    height: 20%;
+    width: 100%;
+    /* background-color: #eb2138; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_one{
+    height: 100%;
+    width: 18%;
+    /* border: 1px solid black; */
+    border: 0.2px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_one img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_two{
+    height: 100%;
+    width: 18%;
+    /* border: 1px solid black; */
+    border: 0.2px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_two img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_three{
+    height: 100%;
+    width: 18%;
+    /* border: 1px solid black; */
+    border: 0.2px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_three img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_four{
+    height: 100%;
+    width: 18%;
+    border: 0.2px solid transparent;
+    /* border: 1px solid black; */
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_four img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_five{
+    height: 100%;
+    width: 18%;
+    order: 0.2px solid transparent;
+    /* border: 1px solid black; */
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_five img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(7, 53, 53); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .name_addre{
+    height: 22%;
+    width: 100%;
+    /* font-size: 25px;
+    border: 2px solid black; */
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #003b95; */
+    
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .name_addre h1{
+    font-size: 25px;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .name_addre  p{
+    height: 32%;
+    width: 100%;
+    font-size: 15px;
+    /* background-color: rgb(255, 255, 255); */
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel{
+    height: 7%;
+    width: 100%;
+    /* border: 1px solid white; */
+    /* background-color: whitesmoke; */
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel p{
+    font-size: 8px;
+    padding: 5px;
+    border: none;
+    background-color: #063375;
+    color: white;
+    border-radius: 2px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel p i{
+    color: gold;
+    text-align: center;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel span{
+    font-size: 7px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel pre{
+    font-size: 8px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info{
+
+    height: 55%;
+    width: 100%;
+    /* border: 2px solid white; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow-y: scroll;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info h1{
+    border-bottom: 0.2px solid whitesmoke;
+    font-size: 25px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option{
+    height: 35%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .room_size{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 15px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .room_size h1{
+    font-size: 13px;
+    border: none;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .room_size p{
+    font-size: 12px;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .bed{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 15px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .bed h1{
+    font-size: 13px;
+    border: none;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .bed p{
+    font-size: 12px;
+}
+
+
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .smoking{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 15px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .smoking h1{
+    font-size: 13px;
+    border: none;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .smoking p{
+    font-size: 12px;
+}
+
+
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .about_hotel{
+    height: 120%;
+    width: 100%;
+    /* background-color: #063375; */
+    /* border: 1px solid black; */
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .about_hotel .all_info{
+    display: flex;flex-direction: column;
+    gap: 10px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .about_hotel .all_info p{
+    font-size: 12px;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price p{
+    font-size: 27px;
+    font-weight: 600;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price del{
+    font-size: 20px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price span{
+    font-size: 20px;
+    color: greenyellow;
+}
+
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color:#063375;
+    color: white;
+    border: 0.5px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels button:hover{
+   /* color: black; */
+   border: 0.001px solid black;
+   cursor: pointer;
+   color: #e5e0e0;
+}
 
 /* show card */
     
@@ -3944,6 +4554,344 @@ background-color: rgb(255, 255, 255);
 
 
 
+
+/* show card */
+
+
+
+
+
+.show_data_list{
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    height: 100vh;
+    width:100%;
+    /* border: 2px solid black; */
+    background-color: transparent;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+
+}
+.show_data_list .all_data_inner{
+    height: 700px;
+    width: 100%;
+    /* border-radius: 14px; */
+    
+    /* border: 2px solid black; */
+}
+.show_data_list .all_data_inner .data_close{
+    height: 8%;
+   
+    width: 100%;
+    background-color: rgba(196, 204, 186, 0.837);
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.show_data_list .all_data_inner .data_close i{
+    padding: 10px;
+    font-size: 35px;
+}
+.show_data_list .all_data_inner .data_close i:hover{
+    color: #063375;
+    cursor: pointer;
+}
+.show_data_list .all_data_inner .data_Show{
+    height: 92%;
+    width: 100%;
+    /* background-color: #ffffff; */
+    background-color: rgb(143, 139, 139);
+    display: flex;
+    flex-direction: column;
+}
+.show_data_list .all_data_inner .data_Show .images_all{
+    height: 50%;
+    width: 100%;
+    /* background-color: #7e8794e6; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+.show_data_list .all_data_inner .data_Show .images_all .big_images{
+    height:75%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.show_data_list .all_data_inner .data_Show .images_all .big_images img{
+    height: 100%;
+    width: 100%;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images{
+
+    height: 20%;
+    width: 100%;
+    /* background-color: #eb2138; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_one{
+    height: 100%;
+    width: 18%;
+    /* border: 1px solid black; */
+    border: 0.2px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_one img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_two{
+    height: 100%;
+    width: 18%;
+    /* border: 1px solid black; */
+    border: 0.2px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_two img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_three{
+    height: 100%;
+    width: 18%;
+    /* border: 1px solid black; */
+    border: 0.2px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_three img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_four{
+    height: 100%;
+    width: 18%;
+    border: 0.2px solid transparent;
+    /* border: 1px solid black; */
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_four img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_five{
+    height: 100%;
+    width: 18%;
+    order: 0.2px solid transparent;
+    /* border: 1px solid black; */
+}
+.show_data_list .all_data_inner .data_Show .images_all  .all_images .image_five img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(7, 53, 53); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .name_addre{
+    height: 30%;
+    width: 100%;
+    /* font-size: 25px;
+    border: 2px solid black; */
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #003b95; */
+    
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .name_addre h1{
+    font-size: 25px;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .name_addre  p{
+    height: 32%;
+    width: 100%;
+    font-size: 15px;
+    /* background-color: rgb(255, 255, 255); */
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel{
+    height: 9%;
+    width: 100%;
+    /* border: 1px solid white; */
+    /* background-color: whitesmoke; */
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel p{
+    font-size: 8px;
+    padding: 5px;
+    border: none;
+    background-color: #063375;
+    color: white;
+    border-radius: 2px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel p i{
+    color: gold;
+    text-align: center;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel span{
+    font-size: 7px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .rating_hotel pre{
+    font-size: 8px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info{
+
+    height: 55%;
+    width: 100%;
+    /* border: 2px solid white; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow-y: scroll;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info h1{
+    border-bottom: 0.2px solid whitesmoke;
+    font-size: 25px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option{
+    height: 35%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .room_size{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 15px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .room_size h1{
+    font-size: 13px;
+    border: none;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .room_size p{
+    font-size: 12px;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .bed{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 15px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .bed h1{
+    font-size: 13px;
+    border: none;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .bed p{
+    font-size: 12px;
+}
+
+
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .smoking{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 15px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .smoking h1{
+    font-size: 13px;
+    border: none;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .room_option .smoking p{
+    font-size: 12px;
+}
+
+
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .about_hotel{
+    height: 180%;
+    width: 100%;
+    /* background-color: #063375; */
+    /* border: 1px solid black; */
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .about_hotel .all_info{
+    display: flex;flex-direction: column;
+    gap: 10px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .about_hotel .all_info p{
+    font-size: 12px;
+}
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price p{
+    font-size: 27px;
+    font-weight: 600;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price del{
+    font-size: 20px;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels .room_info .price span{
+    font-size: 20px;
+    color: greenyellow;
+}
+
+
+.show_data_list .all_data_inner .data_Show .info_of_hotels button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color:#063375;
+    color: white;
+    border: 0.5px solid transparent;
+}
+.show_data_list .all_data_inner .data_Show .info_of_hotels button:hover{
+   /* color: black; */
+   border: 0.001px solid black;
+   cursor: pointer;
+   color: #e5e0e0;
+}
 
 /* show card */
     
