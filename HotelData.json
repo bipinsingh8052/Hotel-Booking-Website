@@ -1,829 +1,878 @@
 {
-    "Hotel":[
-        {
-            "name": "Taj Lakefront Bhopal",
-            "address": "Link Road Number 3,Prempura,Bhadhbhada Chouraha,Bhopal ,Madhya Pradesh,462003 Bhopal,India ",
-            "Rating": "5",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/327168421.jpg?k=5d0dedc881f0a88cac3ec41c874195cbda876a86fe2449e917f120280a092905&o=",
-            "images":{
-                "one":"https://cf.bstatic.com/xdata/images/hotel/max500/327168129.jpg?k=1e1425a349189a65ea7c2cf745650f889ac5d80b73f9d9222149f4bdd806e022&o=",
-                "two":"https://cf.bstatic.com/xdata/images/hotel/max500/371631820.jpg?k=562f1a1c8d22014091792c049fdac6f9b059ddcdcdb5e1e3c8af8cfe33286796&o=",
-                "three":"https://cf.bstatic.com/xdata/images/hotel/max300/327168422.jpg?k=554bfd8824ff1eddf17248bbd8888ea55d0b7af6f7864ac9e985e8e317af5b17&o=",
-                "four":"https://cf.bstatic.com/xdata/images/hotel/max300/327168520.jpg?k=b67c8f709310128ac2f58d50e648901d2ce441ee7eb19173793ae67964eafff6&o=",
-                "five":"https://cf.bstatic.com/xdata/images/hotel/max300/327168484.jpg?k=bf30547400c8785f955b3bd46ed07fcbb03133df7ef023810127496cf8427d82&o="
-            },
-            "price":{
-                "price":"10000",
-                "Mainprice":"35000",
-                "offer":"75% off",
-                "tax":"130"
-            },
-            "paragraph":{
-                "allInformation": " Set in Bhopal, 3.5 km from Museum of Man, Taj Lakefront Bhopal offers accommodation with an outdoor swimming pool, free private parking, a fitness centre and a terrace. With a bar, the 5-star hotel has air-conditioned rooms with free WiFi. The accommodation features room service, a 24-hour front desk and currency exchange for guests.",
-                "short":"Get the celebrity treatment with world-class service at Taj Lakefront Bhopal",
-                "main":"2 single beds Air conditioning, a minibar and a tea and coffee maker are provided in this spacious twin room. The unit offers 2 beds."
-            },
-            "Roomsize": "100sq",
-            "bed":"1 extra-Large Double bed",
-            "smoking":"No smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Super Hotel O Happy Residency",
-            "address": "216, Near Taste Of India, Veg Restaurant Caterer Bhopal, Behind Sargam Cinema, Zone Ii, Maharana Pratap Nagar, Bhopal",
-            "Rating": "4.1",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/tejegtqfltic.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/oywhuayhtrxv.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/cjxryhpkntkb.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/cfxtgefkrtpn.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/bxmwaoysurnp.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/xevoburnhoxq.jpg"
-            },
-            "price":{
-                "price":"608",
-                "Mainprice":"2828",
-                "offer":"78% off",
-                "tax":"144"
-            },
-            "paragraph":{
-                "allInformation": " OYO 88835 The Happy Residency is a budget hotel that offers standardised amenities at the best value. Located 7 km from Upper Lake View Point and 6 km from Madhya Pradesh Tribal Museum, it is designed to offer you comfort and convenience. Enjoy in-house restaurant and CCTV cameras for added security.",
-                "short":"You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
-                "main":"The inn is located 9 km from Van Vihar National Park Bhopal, 4 km from Birla Mandir and 1 km from Shaurya Smarak Bhopal. Guests will be just 2 km from Habibganj Railway Station."
-            },
-            "Roomsize": "9sqm",
-            "bed":"Classic",
-            "smoking":"smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Super Townhouse Lalghati Near Airport",
-            "address": "1 Panchwati colony Airport Road, Bhopal",
-            "Rating": "4.5",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg"
-            },
-            "price":{
-                "price":"978",
-                "Mainprice":"4224",
-                "offer":"77% off",
-                "tax":"177"
-            },
-            "paragraph":{
-                "allInformation": "OYO Townhouse is based on the needs of the millennial traveler. Every single element of the hotel – from the breakfast menu to the booking process has been re-engineered for comfort, efficiency, convenience and affordability.",
-                "short":"You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
-                "main":"The inn is located 9 km from Van Vihar National Park Bhopal, 4 km from Birla Mandir and 1 km from Shaurya Smarak Bhopal. Guests will be just 2 km from Habibganj Railway Station."
-            },
-            "Roomsize": "9sqm",
-            "bed":"Classic",
-            "smoking":"smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Collection O Ashoka Palace",
-            "address": "192, Zone-2, M.P. NagarNear Sargam Cineplex, Arya Bhawan, Bhopal",
-            "Rating": "3.9",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg"
-            },
-            "price":{
-                "price":"605",
-                "Mainprice":"2868",
-                "offer":"78% off",
-                "tax":"158"
-            },
-            "paragraph":{
-                "allInformation": "A space for new-age travelers.",
-                "short":"You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
-                "main":"The inn is located 9 km from Van Vihar National Park Bhopal, 4 km from Birla Mandir and 1 km from Shaurya Smarak Bhopal. Guests will be just 2 km from Habibganj Railway Station."
-            },
-            "Roomsize": "10 sqm",
-            "bed":"Classic",
-            "smoking":" No smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Hotel O The Oasis",
-            "address": "Plot no. R, 42, Zone-II, Maharana Pratap Nagar, Bhopal",
-            "Rating": "4.1",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg"
-            },
-            "price":{
-                "price":"813",
-                "Mainprice":"3754",
-                "offer":"78% off",
-                "tax":"186"
-            },
-            "paragraph":{
-                "allInformation": "Affordable hotels at prime location.",
-                "short":"You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
-                "main":"The inn is located 9 km from Van Vihar National Park Bhopal, 4 km from Birla Mandir and 1 km from Shaurya Smarak Bhopal. Guests will be just 2 km from Habibganj Railway Station."
-            },
-            "Roomsize": "10 sqm",
-            "bed":"Classic",
-            "smoking":" No smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Collection O Bine Venue",
-            "address": "Plot No. 7 Panchsheel Nagar, Mata mandir, New market, Bhopal",
-            "Rating": "4.5",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/ihefpgdgljrn.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/sbggvtgtghhx.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/sbggvtgtghhx.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/sbggvtgtghhx.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/sbggvtgtghhx.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/lxlgikwkdmdh.jpg"
-            },
-            "price":{
-                "price":"558",
-                "Mainprice":"2641",
-                "offer":"78% off",
-                "tax":"145"
-            },
-            "paragraph":{
-                "allInformation": "A space for new-age travelers.",
-                "short":"You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
-                "main":"The check-in experience was satisfactory but could have been smoother. The cleanliness of the hotel was below par and needs improvement. The staff was not very helpful and could have been more attentive. Overall, the hotel is decent but lacks in certain areas."
-            },
-            "Roomsize": "12 sqm",
-            "bed":"Classic",
-            "smoking":"  smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Hotel O MAZENTA PALACE",
-            "address": "Plot n. 08 Anjali vihar phase 2, bagsewaniya bagmugaliya, near krisna arcade, Bhopal",
-            "Rating": "4.9",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/245793/medium/rhfmdbwbowmq.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/245793/medium/rhfmdbwbowmq.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/245793/medium/rhfmdbwbowmq.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/245793/medium/rhfmdbwbowmq.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg"
-            },
-            "price":{
-                "price":"502",
-                "Mainprice":"2137",
-                "offer":"76% off",
-                "tax":"129"
-            },
-            "paragraph":{
-                "allInformation": "Couples are welcome",
-                "short":"This hotel is serviced under the trade name of Hotel Om Sai Plaza as per quality standards of OYO",
-                "main":"The checkin experience was smooth and efficient. The staff were friendly and helpful. The room was comfortable, but the cleanliness could be improved. Overall, a pleasant stay."
-            },
-            "Roomsize": "8 sqm",
-            "bed":"Classic",
-            "smoking":"  smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Hotel O The Happy Land Hotel & Cafe",
-            "address": "92 Bhawani Dham, Phase 2, Paras Nagar, Bhopal",
-            "Rating": "4.1",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/gpgnthrimmxh.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg"
-            },
-            "price":{
-                "price":"629",
-                "Mainprice":"3105",
-                "offer":"79% off",
-                "tax":"154"
-            },
-            "paragraph":{
-                "allInformation": "at prime location.",
-                "short":"You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
-                "main":"I had a splendid experience at this hotel. The check-in was smooth and efficient, earning a 4-star rating. The room was comfortable and well-maintained, also deserving of a 4-star rating. The staff was courteous and helpful throughout my stay, making me give them a solid 4 stars as well. Overall, a wonderful stay!"
-            },
-            "Roomsize": "9 sqm",
-            "bed":"Classic",
-            "smoking":" No smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Hotel O Om sai plaza",
-            "address": "NA, Plot No. 612Plot No.612, Parihar Square, Near Sagar Gaire Restaurant, 80 Ft Road, Ashoka Garden, Bhopal",
-            "Rating": "3.3",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg"
-            },
-            "price":{
-                "price":"502",
-                "Mainprice":"2137",
-                "offer":"76% off",
-                "tax":"129"
-            },
-            "paragraph":{
-                "allInformation": "at prime location.",
-                "short":"This hotel is serviced under the trade name of Hotel Om Sai Plaza as per quality standards of OYO",
-                "main":"The checkin experience was smooth and efficient. The staff were friendly and helpful. The room was comfortable, but the cleanliness could be improved. Overall, a pleasant stay."
-            },
-            "Roomsize": "9 sqm",
-            "bed":"Classic",
-            "smoking":" No smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Hotel O Om sai plaza",
-            "address": "NA, Plot No. 612Plot No.612, Parihar Square, Near Sagar Gaire Restaurant, 80 Ft Road, Ashoka Garden, Bhopal",
-            "Rating": "3.3",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg"
-            },
-            "price":{
-                "price":"502",
-                "Mainprice":"2137",
-                "offer":"76% off",
-                "tax":"129"
-            },
-            "paragraph":{
-                "allInformation": "at prime location.",
-                "short":"This hotel is serviced under the trade name of Hotel Om Sai Plaza as per quality standards of OYO",
-                "main":"The checkin experience was smooth and efficient. The staff were friendly and helpful. The room was comfortable, but the cleanliness could be improved. Overall, a pleasant stay."
-            },
-            "Roomsize": "9 sqm",
-            "bed":"Classic",
-            "smoking":" No smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Hotel O MANGLAM PALACE",
-            "address": "NA, beside Central bank New Jail road Karod chauraha Bhopal, Bhopal",
-            "Rating": "3.7",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg",
-            "images":{
-                "1":"https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg",
-                "2":"https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg",
-                "3":"https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg",
-                "4":"https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg",
-                "5":"https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg"
-            },
-            "price":{
-                "price":"573",
-                "Mainprice":"2707",
-                "offer":"78% off",
-                "tax":"147"
-            },
-            "paragraph":{
-                "allInformation": "Couples are welcome",
-                "short":"This hotel is serviced under the trade name of Hotel Manglam Palace as per quality standards of OYO",
-                "main":"Perfect location with easy access to all the major attractions. The check-in process was seamless and efficient. The room was spacious, clean, and well-maintained. Overall, a top-notch experience deserving of a 5-star rating!i"
-            },
-            "Roomsize": "10 sqm",
-            "bed":"Classic",
-            "smoking":" smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Hotel O Shree Palace",
-            "address": "LIG 39 Amrai Saket Nagar near AIIMS Hospita, Bhopal",
-            "Rating": "3.0",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/wejsetnnpkuw.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/tqiautiphonb.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/ljjdsoidcspg.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/fabecyfumfxj.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/ikfbflcysnsm.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/ravxiccfhwch.jpg"
-            },
-            "price":{
-                "price":"503",
-                "Mainprice":"2585",
-                "offer":"80% off",
-                "tax":"129"
-            },
-            "paragraph":{
-                "allInformation": "Couples are welcome",
-                "short":"This hotel is serviced under the trade name of Hotel Karthik Palace as per quality standards of OYO",
-                "main":"I am absolutely delighted with the impeccable cleanliness of the hotel. The food was simply outstanding, and the checkin experience was seamless. A truly remarkable stay! I highly recommend this hotel for its excellent cleanliness, delicious food, and hassle-free checkin process. A perfect 5-star experience!"
-            },
-            "Roomsize": "8 sqm",
-            "bed":"Classic",
-            "smoking":" smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Collection O Sun Park",
-            "address": "NA, plot no 8, Opposite Allahbad Bank, Jk RoadNear Minal Mall, J.K. RoadNear Minal Mall, J.K. Road, Bhopal, Bhopal",
-            "Rating": "3.5",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/vxmuqucviuws.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/vxmuqucviuws.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/vxmuqucviuws.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/vxmuqucviuws.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/vxmuqucviuws.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/ecfdjejmwilt.jpg"
-            },
-            "price":{
-                "price":"764",
-                "Mainprice":"3508",
-                "offer":"78% off",
-                "tax":"169"
-            },
-            "paragraph":{
-                "allInformation": "No unmarried couples allowed",
-                "short":"This hotel is serviced under the trade name of Hotel Sun Park as per quality standards of OYO",
-                "main":"Room bahut badiya tha or khana bhi bahut tasty tha (Translated by Google) The room was very spacious or the food was also very tasty."
-            },
-            "Roomsize": "12 sqm",
-            "bed":"Classic",
-            "smoking":"No smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Hotel O The Dreamland",
-            "address": "24 chandrika housing society Bawadiya kalan, Bhopal",
-            "Rating": "3.7",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/nrpygrlecjrf.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/nrpygrlecjrf.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/nrpygrlecjrf.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/nrpygrlecjrf.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/nrpygrlecjrf.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/ftmoybtpbtgn.jpg"
-            },
-            "price":{
-                "price":"488",
-                "Mainprice":"2548",
-                "offer":"80% off",
-                "tax":"133"
-            },
-            "paragraph":{
-                "allInformation": "Affordable hotels at prime location.",
-                "short":"This hotel is serviced under the trade name of Hotel The Dreamland as per quality standards of OYO",
-                "main":"Property staff and location is nice. Owner is a fool person and dont know how to talk to guests but staff showed him his place. and abused him badly. Owner is an uneducated person and shows like he is the boss but he is a fool."
-            },
-            "Roomsize": "9 sqm",
-            "bed":"Classic",
-            "smoking":"No smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Collection O Ganpati",
-            "address": "256, No.256 Zone-2, Habibganj Road, Near Sargam Cinema, Maharana Pratap Nagar, Bhopal",
-            "Rating": "3.5",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg"
-            },
-            "price":{
-                "price":"693",
-                "Mainprice":"3397",
-                "offer":"79% off",
-                "tax":"171"
-            },
-            "paragraph":{
-                "allInformation": "A space for new-age travelers.",
-                "short":"This hotel is serviced under the trade name of Hotel Ganpati as per quality standards of OYO",
-                "main":"Please don't stay in ths hotel ..the room is too bad compared to price . They charged extra money for every single thing. I had booked this hotel online then they are saying the room is not available. Manager behaviour is also bad when its come to give proper service."
-            },
-            "Roomsize": "7 sqm",
-            "bed":"Classic",
-            "smoking":" smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Hotel O My Lord",
-            "address": "7, Plot No. 7, Near Christ MemorialNear Christ Memorial Opp. Sant Hirdaram Kutiya, Bairagarhnull, Bhopal",
-            "Rating": "3.8",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg"
-            },
-            "price":{
-                "price":"639",
-                "Mainprice":"2985",
-                "offer":"78% off",
-                "tax":"155"
-            },
-            "paragraph":{
-                "allInformation": "Couples are welcome.",
-                "short":"This hotel is serviced under the trade name of Hotel My Lord as per quality standards of OYO",
-                "main":"The staff at this hotel is simply amazing! They went above and beyond to ensure that my stay was comfortable and enjoyable. Their friendly and helpful attitude made me feel right at home. I would definitely recommend this hotel for their excellent staff service."
-            },
-            "Roomsize": "9 sqm",
-            "bed":"Classic",
-            "smoking":" No smoking"
-        },
-        {
-            "name": "Hotel Vishwa",
-            "address": "Plot No 30 M P Nagar, Zone-ii, Behind Patidar Studio, Huzur Tahsil, Bhopal",
-            "Rating": "3.6",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg"
-            },
-            "price":{
-                "price":"682",
-                "Mainprice":"3295",
-                "offer":"79% off",
-                "tax":"195"
-            },
-            "paragraph":{
-                "allInformation": "Couples are welcome.",
-                "short":"Visitors can easily explore nearby attractions such as Van Vihar National Park Bhopal, Birla Mandir and Shaurya Smarak Bhopal which are about 8 km, 3 km and 0.8 km away from the lodging. Habibganj Railway Station is 2 km from the hotel. Rajabhoj Airport is 17 km away.",
-                "main":"OYO 82217 Hotel Vishwa is a budget hotel that offers standard amenities at the best value. The 6 km proximity to Upper Lake View Point and 6 km proximity to Madhya Pradesh Tribal Museum are just some of the many attractions nearby. This property has 24/7 checkin, power backup, and housekeeping services- guaranteed to exceed your expectations with every stay."
-            },
-            "Roomsize": "10 sqm",
-            "bed":"Classic",
-            "smoking":" No smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Hotel O Shri Sai Ram",
-            "address": "28, NAV BAHAR COLONY, NEAR OVER BRIDGE, RAILWAY STATION, HAMIDIA ROAD, Bhopal",
-            "Rating": "3.6",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg"
-            },
-            "price":{
-                "price":"770",
-                "Mainprice":"3385",
-                "offer":"77% off",
-                "tax":"178"
-            },
-            "paragraph":{
-                "allInformation": "Affordable hotels at prime location.",
-                "short":"This hotel is serviced under the trade name of Hotel Shri Sai Ram as per quality standards of OYO",
-                "main":"OYO 82217 Hotel Vishwa is a budget hotel that offers standard amenities at the best value. The 6 km proximity to Upper Lake View Point and 6 km proximity to Madhya Pradesh Tribal Museum are just some of the many attractions nearby. This property has 24/7 checkin, power backup, and housekeeping services- guaranteed to exceed your expectations with every stay."
-            },
-            "Roomsize": "11 sqm",
-            "bed":"Classic",
-            "smoking":" No smoking"
-        },
-        {
-            "name": "Hotel O Smriti Star",
-            "address": "35, Zone-II, Maharana Pratap Nagar, Anna Nagar, Bhopal",
-            "Rating": "3.5",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/hivgbqmcgnlt.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/hiycbplsbkjh.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/maufkuercvox.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/ledhqrpyxiqv.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/nhhboycovxwf.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/nhhboycovxwf.jpg"
-            },
-            "price":{
-                "price":"759",
-                "Mainprice":"3578",
-                "offer":"78% off",
-                "tax":"193"
-            },
-            "paragraph":{
-                "allInformation": "A space for new-age travelers.",
-                "short":"This hotel is serviced under the trade name of Smriti Star MP Nagar as per quality standards of OYO",
-                "main":"Terrible experience first time ever, i was asked to pay more for checking on top of booking amount. I will avoid making any booking thru makemytrip in future as i did not get proper support for booking concerns even it was 1 am mid night when i was facing problem with checkin at hotel"
-            },
-            "Roomsize": "8 sqm",
-            "bed":"Classic",
-            "smoking":"  smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Super Hotel O Radhika Palace",
-            "address": "Plot no 241, Near Jk Hospital, L N C T Medical College,Kolar Road, Bhopal",
-            "Rating": "4.5",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/jkygubbsawcf.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/axfjpebespoy.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/lynghmxrpytv.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/ebficgjeynpm.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/fguopmbliarv.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/rhqnjmewbyrf.jpg"
-            },
-            "price":{
-                "price":"563",
-                "Mainprice":"2759",
-                "offer":"79% off",
-                "tax":"171"
-            },
-            "paragraph":{
-                "allInformation": "Affordable hotel at prime location.",
-                "short":"This hotel is serviced under the trade name of Radhika Palace as per quality standards of OYO",
-                "main":"The hotel exceeded my expectations in every aspect! The food was divine, with an authentic Indian touch that left my taste buds in pure bliss. The room was top-notch, spacious, and beautifully decorated. The check-in experience was seamless, with the staff being extremely courteous and efficient. A truly 5-star experience!"
-            },
-            "Roomsize": "10 sqm",
-            "bed":"Classic",
-            "smoking":"  smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Hotel O Madhuram Residency",
-            "address": "04 311 Opp. To BMHRC near by Mittal institute of technology karondnull, Bhopal",
-            "Rating": "4.0",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg"
-            },
-            "price":{
-                "price":"787",
-                "Mainprice":"3659",
-                "offer":"78% off",
-                "tax":"187"
-            },
-            "paragraph":{
-                "allInformation": "Affordable hotel at prime location.",
-                "short":"This hotel is serviced under the trade name of Hotel Madhuram Residency as per quality standards of OYO",
-                "main":"The check-in experience at the hotel was absolutely fabulous! The staff was extremely courteous and efficient. They made us feel welcome right from the start. The process was quick and hassle-free. Overall, a 5-star check-in experience!."
-            },
-            "Roomsize": "12 sqm",
-            "bed":"Classic",
-            "smoking":"  smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Super Hotel O 30359 Hotel The Vinayak",
-            "address": "NA, Vinayak Hospitality Service, 9b 215, Saket Nagar Near Aiims And Sagar Public School Bhopal (m.p)near Sagar Public School, Saket NagarNear Sagar Public School, Saket Nagar, Bhopal",
-            "Rating": "3.8",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/hlktfbieyanq.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/hlktfbieyanq.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/hlktfbieyanq.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/hlktfbieyanq.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/skeqaauqpbse.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/skeqaauqpbse.jpg"
-            },
-            "price":{
-                "price":"542",
-                "Mainprice":"2575",
-                "offer":"78% off",
-                "tax":"143"
-            },
-            "paragraph":{
-                "allInformation": "Affordable hotel at prime location.",
-                "short":"This hotel is serviced under the trade name of The Vinayak as per quality standards of OYO",
-                "main":"The check-in experience was smooth and hassle-free. The staff was extremely helpful and friendly. The hotel's location was perfect, with easy access to all the attractions. Overall, a fantastic stay! Highly recommended! I being solo female traveller felt very safe and secure as well. Thanks for this better experience."
-            },
-            "Roomsize": "8 sqm",
-            "bed":"Classic",
-            "smoking":" No smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Collection O Gauri Shree Hotel",
-            "address": "Block Number 8, Chittod Complex, Mp Nagar Zone-1, Near By Idfc First Bank, Bhopal",
-            "Rating": "4.0",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg"
-            },
-            "price":{
-                "price":"846",
-                "Mainprice":"3995",
-                "offer":"78% off",
-                "tax":"217"
-            },
-            "paragraph":{
-                "allInformation": "A space for new-age travelers.",
-                "short":"This hotel is serviced under the trade name of Gauri Shree Hotel as per quality standards of OYO",
-                "main":"I had an amazing check-in experience at this hotel. The staff was very welcoming and efficient. However, the room was disappointing with outdated furniture and limited amenities. The food was below average, lacking flavor and variety. Overall, I wouldn't recommend this hotel solely based on the room and food quality."
-            },
-            "Roomsize": "9 sqm",
-            "bed":"Classic",
-            "smoking":" No smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        },
-        {
-            "name": "Collection O Udit Plaza",
-            "address": "1, Maharana Pratap Nagar, Huzur Tahsil, Bhopal",
-            "Rating": "3.3",
-            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/52f96f471637d0aa.jpg",
-            "images":{
-                "one":"https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/52f96f471637d0aa.jpg",
-                "two":"https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/52f96f471637d0aa.jpg",
-                "three":"https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/52f96f471637d0aa.jpg",
-                "four":"https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/52f96f471637d0aa.jpg",
-                "five":"https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/feaa1ddc3e9c99b1.jpg"
-            },
-            "price":{
-                "price":"855",
-                "Mainprice":"2548",
-                "offer":"66% off",
-                "tax":"213"
-            },
-            "paragraph":{
-                "allInformation": "Couples are welcome.",
-                "short":"You'll find an incredible hotel in a great location with a variety of amenities to make your stay memorable. We have a 24-hour front desk, free parking, and an elevator. You'll enjoy power backup, housekeeping, laundry service, room service and taxi service.",
-                "main":"Collection O 82719 Hotel Udit Plaza is an ideal place to stay in Bhopal. Featuring a dining area, kitchen and in-house restaurant, this hotel provides guests with all the amenities they need for their stay. Guests can also enjoy the 6 km from Upper Lake View Point and 6 km from Madhya Pradesh Tribal Museum that are both located nearby."
-            },
-            "Roomsize": "12 sqm",
-            "bed":"Classic",
-            "smoking":"  smoking",
-            "booking":{
-                "name":"bipin",
-                "email":"bahcbeh",
-                "number":"567898765",
-                "addharno":"456789",
-                "date":"456789",
-                "room":"678"
-            }
-        }
-
-    ]
+  "Hotel": [
+    {
+      "name": "Taj Lakefront Bhopal",
+      "address": "Link Road Number 3,Prempura,Bhadhbhada Chouraha,Bhopal ,Madhya Pradesh,462003 Bhopal,India ",
+      "Rating": "5",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/327168421.jpg?k=5d0dedc881f0a88cac3ec41c874195cbda876a86fe2449e917f120280a092905&o=",
+      "images": {
+        "one": "https://cf.bstatic.com/xdata/images/hotel/max500/327168129.jpg?k=1e1425a349189a65ea7c2cf745650f889ac5d80b73f9d9222149f4bdd806e022&o=",
+        "two": "https://cf.bstatic.com/xdata/images/hotel/max500/371631820.jpg?k=562f1a1c8d22014091792c049fdac6f9b059ddcdcdb5e1e3c8af8cfe33286796&o=",
+        "three": "https://cf.bstatic.com/xdata/images/hotel/max300/327168422.jpg?k=554bfd8824ff1eddf17248bbd8888ea55d0b7af6f7864ac9e985e8e317af5b17&o=",
+        "four": "https://cf.bstatic.com/xdata/images/hotel/max300/327168520.jpg?k=b67c8f709310128ac2f58d50e648901d2ce441ee7eb19173793ae67964eafff6&o=",
+        "five": "https://cf.bstatic.com/xdata/images/hotel/max300/327168484.jpg?k=bf30547400c8785f955b3bd46ed07fcbb03133df7ef023810127496cf8427d82&o="
+      },
+      "price": {
+        "price": "10000",
+        "Mainprice": "35000",
+        "offer": "75% off",
+        "tax": "130"
+      },
+      "paragraph": {
+        "allInformation": " Set in Bhopal, 3.5 km from Museum of Man, Taj Lakefront Bhopal offers accommodation with an outdoor swimming pool, free private parking, a fitness centre and a terrace. With a bar, the 5-star hotel has air-conditioned rooms with free WiFi. The accommodation features room service, a 24-hour front desk and currency exchange for guests.",
+        "short": "Get the celebrity treatment with world-class service at Taj Lakefront Bhopal",
+        "main": "2 single beds Air conditioning, a minibar and a tea and coffee maker are provided in this spacious twin room. The unit offers 2 beds."
+      },
+      "Roomsize": "100sq",
+      "bed": "1 extra-Large Double bed",
+      "smoking": "No smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "578a"
+    },
+    {
+      "name": "Super Hotel O Happy Residency",
+      "address": "216, Near Taste Of India, Veg Restaurant Caterer Bhopal, Behind Sargam Cinema, Zone Ii, Maharana Pratap Nagar, Bhopal",
+      "Rating": "4.1",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/tejegtqfltic.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/oywhuayhtrxv.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/cjxryhpkntkb.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/cfxtgefkrtpn.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/bxmwaoysurnp.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/177643/medium/xevoburnhoxq.jpg"
+      },
+      "price": {
+        "price": "608",
+        "Mainprice": "2828",
+        "offer": "78% off",
+        "tax": "144"
+      },
+      "paragraph": {
+        "allInformation": " OYO 88835 The Happy Residency is a budget hotel that offers standardised amenities at the best value. Located 7 km from Upper Lake View Point and 6 km from Madhya Pradesh Tribal Museum, it is designed to offer you comfort and convenience. Enjoy in-house restaurant and CCTV cameras for added security.",
+        "short": "You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
+        "main": "The inn is located 9 km from Van Vihar National Park Bhopal, 4 km from Birla Mandir and 1 km from Shaurya Smarak Bhopal. Guests will be just 2 km from Habibganj Railway Station."
+      },
+      "Roomsize": "9sqm",
+      "bed": "Classic",
+      "smoking": "smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "6cff"
+    },
+    {
+      "name": "Super Townhouse Lalghati Near Airport",
+      "address": "1 Panchwati colony Airport Road, Bhopal",
+      "Rating": "4.5",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/84875/medium/xpkoypysnwfm.jpg"
+      },
+      "price": {
+        "price": "978",
+        "Mainprice": "4224",
+        "offer": "77% off",
+        "tax": "177"
+      },
+      "paragraph": {
+        "allInformation": "OYO Townhouse is based on the needs of the millennial traveler. Every single element of the hotel – from the breakfast menu to the booking process has been re-engineered for comfort, efficiency, convenience and affordability.",
+        "short": "You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
+        "main": "The inn is located 9 km from Van Vihar National Park Bhopal, 4 km from Birla Mandir and 1 km from Shaurya Smarak Bhopal. Guests will be just 2 km from Habibganj Railway Station."
+      },
+      "Roomsize": "9sqm",
+      "bed": "Classic",
+      "smoking": "smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "0ca5"
+    },
+    {
+      "name": "Collection O Ashoka Palace",
+      "address": "192, Zone-2, M.P. NagarNear Sargam Cineplex, Arya Bhawan, Bhopal",
+      "Rating": "3.9",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/6076/medium/ytlcvltwbrmo.jpg"
+      },
+      "price": {
+        "price": "605",
+        "Mainprice": "2868",
+        "offer": "78% off",
+        "tax": "158"
+      },
+      "paragraph": {
+        "allInformation": "A space for new-age travelers.",
+        "short": "You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
+        "main": "The inn is located 9 km from Van Vihar National Park Bhopal, 4 km from Birla Mandir and 1 km from Shaurya Smarak Bhopal. Guests will be just 2 km from Habibganj Railway Station."
+      },
+      "Roomsize": "10 sqm",
+      "bed": "Classic",
+      "smoking": " No smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "41d1"
+    },
+    {
+      "name": "Hotel O The Oasis",
+      "address": "Plot no. R, 42, Zone-II, Maharana Pratap Nagar, Bhopal",
+      "Rating": "4.1",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/1927/medium/egfyqkelshvt.jpg"
+      },
+      "price": {
+        "price": "813",
+        "Mainprice": "3754",
+        "offer": "78% off",
+        "tax": "186"
+      },
+      "paragraph": {
+        "allInformation": "Affordable hotels at prime location.",
+        "short": "You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
+        "main": "The inn is located 9 km from Van Vihar National Park Bhopal, 4 km from Birla Mandir and 1 km from Shaurya Smarak Bhopal. Guests will be just 2 km from Habibganj Railway Station."
+      },
+      "Roomsize": "10 sqm",
+      "bed": "Classic",
+      "smoking": " No smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "98cd"
+    },
+    {
+      "name": "Collection O Bine Venue",
+      "address": "Plot No. 7 Panchsheel Nagar, Mata mandir, New market, Bhopal",
+      "Rating": "4.5",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/ihefpgdgljrn.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/sbggvtgtghhx.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/sbggvtgtghhx.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/sbggvtgtghhx.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/sbggvtgtghhx.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/112984/medium/lxlgikwkdmdh.jpg"
+      },
+      "price": {
+        "price": "558",
+        "Mainprice": "2641",
+        "offer": "78% off",
+        "tax": "145"
+      },
+      "paragraph": {
+        "allInformation": "A space for new-age travelers.",
+        "short": "You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
+        "main": "The check-in experience was satisfactory but could have been smoother. The cleanliness of the hotel was below par and needs improvement. The staff was not very helpful and could have been more attentive. Overall, the hotel is decent but lacks in certain areas."
+      },
+      "Roomsize": "12 sqm",
+      "bed": "Classic",
+      "smoking": "  smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "0795"
+    },
+    {
+      "name": "Hotel O MAZENTA PALACE",
+      "address": "Plot n. 08 Anjali vihar phase 2, bagsewaniya bagmugaliya, near krisna arcade, Bhopal",
+      "Rating": "4.9",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/245793/medium/rhfmdbwbowmq.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/245793/medium/rhfmdbwbowmq.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/245793/medium/rhfmdbwbowmq.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/245793/medium/rhfmdbwbowmq.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg"
+      },
+      "price": {
+        "price": "502",
+        "Mainprice": "2137",
+        "offer": "76% off",
+        "tax": "129"
+      },
+      "paragraph": {
+        "allInformation": "Couples are welcome",
+        "short": "This hotel is serviced under the trade name of Hotel Om Sai Plaza as per quality standards of OYO",
+        "main": "The checkin experience was smooth and efficient. The staff were friendly and helpful. The room was comfortable, but the cleanliness could be improved. Overall, a pleasant stay."
+      },
+      "Roomsize": "8 sqm",
+      "bed": "Classic",
+      "smoking": "  smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "5090"
+    },
+    {
+      "name": "Hotel O The Happy Land Hotel & Cafe",
+      "address": "92 Bhawani Dham, Phase 2, Paras Nagar, Bhopal",
+      "Rating": "4.1",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/gpgnthrimmxh.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg"
+      },
+      "price": {
+        "price": "629",
+        "Mainprice": "3105",
+        "offer": "79% off",
+        "tax": "154"
+      },
+      "paragraph": {
+        "allInformation": "at prime location.",
+        "short": "You'll surely love our hotel rooms equipped with amenities such as Free Wifi and Geyser. Book your stay now!",
+        "main": "I had a splendid experience at this hotel. The check-in was smooth and efficient, earning a 4-star rating. The room was comfortable and well-maintained, also deserving of a 4-star rating. The staff was courteous and helpful throughout my stay, making me give them a solid 4 stars as well. Overall, a wonderful stay!"
+      },
+      "Roomsize": "9 sqm",
+      "bed": "Classic",
+      "smoking": " No smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "5378"
+    },
+    {
+      "name": "Hotel O Om sai plaza",
+      "address": "NA, Plot No. 612Plot No.612, Parihar Square, Near Sagar Gaire Restaurant, 80 Ft Road, Ashoka Garden, Bhopal",
+      "Rating": "3.3",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg"
+      },
+      "price": {
+        "price": "502",
+        "Mainprice": "2137",
+        "offer": "76% off",
+        "tax": "129"
+      },
+      "paragraph": {
+        "allInformation": "at prime location.",
+        "short": "This hotel is serviced under the trade name of Hotel Om Sai Plaza as per quality standards of OYO",
+        "main": "The checkin experience was smooth and efficient. The staff were friendly and helpful. The room was comfortable, but the cleanliness could be improved. Overall, a pleasant stay."
+      },
+      "Roomsize": "9 sqm",
+      "bed": "Classic",
+      "smoking": " No smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "6eaf"
+    },
+    {
+      "name": "Hotel O Om sai plaza",
+      "address": "NA, Plot No. 612Plot No.612, Parihar Square, Near Sagar Gaire Restaurant, 80 Ft Road, Ashoka Garden, Bhopal",
+      "Rating": "3.3",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/48178/medium/wtpkdbrsbfbq.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/222899/medium/xabxwjfhpnbj.jpg"
+      },
+      "price": {
+        "price": "502",
+        "Mainprice": "2137",
+        "offer": "76% off",
+        "tax": "129"
+      },
+      "paragraph": {
+        "allInformation": "at prime location.",
+        "short": "This hotel is serviced under the trade name of Hotel Om Sai Plaza as per quality standards of OYO",
+        "main": "The checkin experience was smooth and efficient. The staff were friendly and helpful. The room was comfortable, but the cleanliness could be improved. Overall, a pleasant stay."
+      },
+      "Roomsize": "9 sqm",
+      "bed": "Classic",
+      "smoking": " No smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "6134"
+    },
+    {
+      "name": "Hotel O MANGLAM PALACE",
+      "address": "NA, beside Central bank New Jail road Karod chauraha Bhopal, Bhopal",
+      "Rating": "3.7",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg",
+      "images": {
+        "1": "https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg",
+        "2": "https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg",
+        "3": "https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg",
+        "4": "https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg",
+        "5": "https://images.oyoroomscdn.com/uploads/hotel_image/110126/medium/ltsfeoujhsiv.jpg"
+      },
+      "price": {
+        "price": "573",
+        "Mainprice": "2707",
+        "offer": "78% off",
+        "tax": "147"
+      },
+      "paragraph": {
+        "allInformation": "Couples are welcome",
+        "short": "This hotel is serviced under the trade name of Hotel Manglam Palace as per quality standards of OYO",
+        "main": "Perfect location with easy access to all the major attractions. The check-in process was seamless and efficient. The room was spacious, clean, and well-maintained. Overall, a top-notch experience deserving of a 5-star rating!i"
+      },
+      "Roomsize": "10 sqm",
+      "bed": "Classic",
+      "smoking": " smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "48f9"
+    },
+    {
+      "name": "Hotel O Shree Palace",
+      "address": "LIG 39 Amrai Saket Nagar near AIIMS Hospita, Bhopal",
+      "Rating": "3.0",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/wejsetnnpkuw.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/tqiautiphonb.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/ljjdsoidcspg.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/fabecyfumfxj.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/ikfbflcysnsm.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/229687/medium/ravxiccfhwch.jpg"
+      },
+      "price": {
+        "price": "503",
+        "Mainprice": "2585",
+        "offer": "80% off",
+        "tax": "129"
+      },
+      "paragraph": {
+        "allInformation": "Couples are welcome",
+        "short": "This hotel is serviced under the trade name of Hotel Karthik Palace as per quality standards of OYO",
+        "main": "I am absolutely delighted with the impeccable cleanliness of the hotel. The food was simply outstanding, and the checkin experience was seamless. A truly remarkable stay! I highly recommend this hotel for its excellent cleanliness, delicious food, and hassle-free checkin process. A perfect 5-star experience!"
+      },
+      "Roomsize": "8 sqm",
+      "bed": "Classic",
+      "smoking": " smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "e49b"
+    },
+    {
+      "name": "Collection O Sun Park",
+      "address": "NA, plot no 8, Opposite Allahbad Bank, Jk RoadNear Minal Mall, J.K. RoadNear Minal Mall, J.K. Road, Bhopal, Bhopal",
+      "Rating": "3.5",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/vxmuqucviuws.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/vxmuqucviuws.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/vxmuqucviuws.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/vxmuqucviuws.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/vxmuqucviuws.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/14107/medium/ecfdjejmwilt.jpg"
+      },
+      "price": {
+        "price": "764",
+        "Mainprice": "3508",
+        "offer": "78% off",
+        "tax": "169"
+      },
+      "paragraph": {
+        "allInformation": "No unmarried couples allowed",
+        "short": "This hotel is serviced under the trade name of Hotel Sun Park as per quality standards of OYO",
+        "main": "Room bahut badiya tha or khana bhi bahut tasty tha (Translated by Google) The room was very spacious or the food was also very tasty."
+      },
+      "Roomsize": "12 sqm",
+      "bed": "Classic",
+      "smoking": "No smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "a718"
+    },
+    {
+      "name": "Hotel O The Dreamland",
+      "address": "24 chandrika housing society Bawadiya kalan, Bhopal",
+      "Rating": "3.7",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/nrpygrlecjrf.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/nrpygrlecjrf.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/nrpygrlecjrf.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/nrpygrlecjrf.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/nrpygrlecjrf.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/210453/medium/ftmoybtpbtgn.jpg"
+      },
+      "price": {
+        "price": "488",
+        "Mainprice": "2548",
+        "offer": "80% off",
+        "tax": "133"
+      },
+      "paragraph": {
+        "allInformation": "Affordable hotels at prime location.",
+        "short": "This hotel is serviced under the trade name of Hotel The Dreamland as per quality standards of OYO",
+        "main": "Property staff and location is nice. Owner is a fool person and dont know how to talk to guests but staff showed him his place. and abused him badly. Owner is an uneducated person and shows like he is the boss but he is a fool."
+      },
+      "Roomsize": "9 sqm",
+      "bed": "Classic",
+      "smoking": "No smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "056c"
+    },
+    {
+      "name": "Collection O Ganpati",
+      "address": "256, No.256 Zone-2, Habibganj Road, Near Sargam Cinema, Maharana Pratap Nagar, Bhopal",
+      "Rating": "3.5",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/5656/medium/ewdsklvhwghq.jpg"
+      },
+      "price": {
+        "price": "693",
+        "Mainprice": "3397",
+        "offer": "79% off",
+        "tax": "171"
+      },
+      "paragraph": {
+        "allInformation": "A space for new-age travelers.",
+        "short": "This hotel is serviced under the trade name of Hotel Ganpati as per quality standards of OYO",
+        "main": "Please don't stay in ths hotel ..the room is too bad compared to price . They charged extra money for every single thing. I had booked this hotel online then they are saying the room is not available. Manager behaviour is also bad when its come to give proper service."
+      },
+      "Roomsize": "7 sqm",
+      "bed": "Classic",
+      "smoking": " smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "7bd9"
+    },
+    {
+      "name": "Hotel O My Lord",
+      "address": "7, Plot No. 7, Near Christ MemorialNear Christ Memorial Opp. Sant Hirdaram Kutiya, Bairagarhnull, Bhopal",
+      "Rating": "3.8",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/221022/medium/jxdobfsmrgns.jpg"
+      },
+      "price": {
+        "price": "639",
+        "Mainprice": "2985",
+        "offer": "78% off",
+        "tax": "155"
+      },
+      "paragraph": {
+        "allInformation": "Couples are welcome.",
+        "short": "This hotel is serviced under the trade name of Hotel My Lord as per quality standards of OYO",
+        "main": "The staff at this hotel is simply amazing! They went above and beyond to ensure that my stay was comfortable and enjoyable. Their friendly and helpful attitude made me feel right at home. I would definitely recommend this hotel for their excellent staff service."
+      },
+      "Roomsize": "9 sqm",
+      "bed": "Classic",
+      "smoking": " No smoking",
+      "id": "cf7d"
+    },
+    {
+      "name": "Hotel Vishwa",
+      "address": "Plot No 30 M P Nagar, Zone-ii, Behind Patidar Studio, Huzur Tahsil, Bhopal",
+      "Rating": "3.6",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/114280/medium/404916e136b1c28a.jpg"
+      },
+      "price": {
+        "price": "682",
+        "Mainprice": "3295",
+        "offer": "79% off",
+        "tax": "195"
+      },
+      "paragraph": {
+        "allInformation": "Couples are welcome.",
+        "short": "Visitors can easily explore nearby attractions such as Van Vihar National Park Bhopal, Birla Mandir and Shaurya Smarak Bhopal which are about 8 km, 3 km and 0.8 km away from the lodging. Habibganj Railway Station is 2 km from the hotel. Rajabhoj Airport is 17 km away.",
+        "main": "OYO 82217 Hotel Vishwa is a budget hotel that offers standard amenities at the best value. The 6 km proximity to Upper Lake View Point and 6 km proximity to Madhya Pradesh Tribal Museum are just some of the many attractions nearby. This property has 24/7 checkin, power backup, and housekeeping services- guaranteed to exceed your expectations with every stay."
+      },
+      "Roomsize": "10 sqm",
+      "bed": "Classic",
+      "smoking": " No smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "e141"
+    },
+    {
+      "name": "Hotel O Shri Sai Ram",
+      "address": "28, NAV BAHAR COLONY, NEAR OVER BRIDGE, RAILWAY STATION, HAMIDIA ROAD, Bhopal",
+      "Rating": "3.6",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/258799/medium/jifcnkrbvugb.jpg"
+      },
+      "price": {
+        "price": "770",
+        "Mainprice": "3385",
+        "offer": "77% off",
+        "tax": "178"
+      },
+      "paragraph": {
+        "allInformation": "Affordable hotels at prime location.",
+        "short": "This hotel is serviced under the trade name of Hotel Shri Sai Ram as per quality standards of OYO",
+        "main": "OYO 82217 Hotel Vishwa is a budget hotel that offers standard amenities at the best value. The 6 km proximity to Upper Lake View Point and 6 km proximity to Madhya Pradesh Tribal Museum are just some of the many attractions nearby. This property has 24/7 checkin, power backup, and housekeeping services- guaranteed to exceed your expectations with every stay."
+      },
+      "Roomsize": "11 sqm",
+      "bed": "Classic",
+      "smoking": " No smoking",
+      "id": "dcfc"
+    },
+    {
+      "name": "Hotel O Smriti Star",
+      "address": "35, Zone-II, Maharana Pratap Nagar, Anna Nagar, Bhopal",
+      "Rating": "3.5",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/hivgbqmcgnlt.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/hiycbplsbkjh.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/maufkuercvox.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/ledhqrpyxiqv.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/nhhboycovxwf.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/107520/medium/nhhboycovxwf.jpg"
+      },
+      "price": {
+        "price": "759",
+        "Mainprice": "3578",
+        "offer": "78% off",
+        "tax": "193"
+      },
+      "paragraph": {
+        "allInformation": "A space for new-age travelers.",
+        "short": "This hotel is serviced under the trade name of Smriti Star MP Nagar as per quality standards of OYO",
+        "main": "Terrible experience first time ever, i was asked to pay more for checking on top of booking amount. I will avoid making any booking thru makemytrip in future as i did not get proper support for booking concerns even it was 1 am mid night when i was facing problem with checkin at hotel"
+      },
+      "Roomsize": "8 sqm",
+      "bed": "Classic",
+      "smoking": "  smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "d2cb"
+    },
+    {
+      "name": "Super Hotel O Radhika Palace",
+      "address": "Plot no 241, Near Jk Hospital, L N C T Medical College,Kolar Road, Bhopal",
+      "Rating": "4.5",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/jkygubbsawcf.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/axfjpebespoy.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/lynghmxrpytv.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/ebficgjeynpm.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/fguopmbliarv.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/19101/medium/rhqnjmewbyrf.jpg"
+      },
+      "price": {
+        "price": "563",
+        "Mainprice": "2759",
+        "offer": "79% off",
+        "tax": "171"
+      },
+      "paragraph": {
+        "allInformation": "Affordable hotel at prime location.",
+        "short": "This hotel is serviced under the trade name of Radhika Palace as per quality standards of OYO",
+        "main": "The hotel exceeded my expectations in every aspect! The food was divine, with an authentic Indian touch that left my taste buds in pure bliss. The room was top-notch, spacious, and beautifully decorated. The check-in experience was seamless, with the staff being extremely courteous and efficient. A truly 5-star experience!"
+      },
+      "Roomsize": "10 sqm",
+      "bed": "Classic",
+      "smoking": "  smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "8f67"
+    },
+    {
+      "name": "Hotel O Madhuram Residency",
+      "address": "04 311 Opp. To BMHRC near by Mittal institute of technology karondnull, Bhopal",
+      "Rating": "4.0",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/229300/medium/eaeercqtddkl.jpg"
+      },
+      "price": {
+        "price": "787",
+        "Mainprice": "3659",
+        "offer": "78% off",
+        "tax": "187"
+      },
+      "paragraph": {
+        "allInformation": "Affordable hotel at prime location.",
+        "short": "This hotel is serviced under the trade name of Hotel Madhuram Residency as per quality standards of OYO",
+        "main": "The check-in experience at the hotel was absolutely fabulous! The staff was extremely courteous and efficient. They made us feel welcome right from the start. The process was quick and hassle-free. Overall, a 5-star check-in experience!."
+      },
+      "Roomsize": "12 sqm",
+      "bed": "Classic",
+      "smoking": "  smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "6241"
+    },
+    {
+      "name": "Super Hotel O 30359 Hotel The Vinayak",
+      "address": "NA, Vinayak Hospitality Service, 9b 215, Saket Nagar Near Aiims And Sagar Public School Bhopal (m.p)near Sagar Public School, Saket NagarNear Sagar Public School, Saket Nagar, Bhopal",
+      "Rating": "3.8",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/hlktfbieyanq.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/hlktfbieyanq.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/hlktfbieyanq.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/hlktfbieyanq.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/skeqaauqpbse.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/51583/medium/skeqaauqpbse.jpg"
+      },
+      "price": {
+        "price": "542",
+        "Mainprice": "2575",
+        "offer": "78% off",
+        "tax": "143"
+      },
+      "paragraph": {
+        "allInformation": "Affordable hotel at prime location.",
+        "short": "This hotel is serviced under the trade name of The Vinayak as per quality standards of OYO",
+        "main": "The check-in experience was smooth and hassle-free. The staff was extremely helpful and friendly. The hotel's location was perfect, with easy access to all the attractions. Overall, a fantastic stay! Highly recommended! I being solo female traveller felt very safe and secure as well. Thanks for this better experience."
+      },
+      "Roomsize": "8 sqm",
+      "bed": "Classic",
+      "smoking": " No smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "2ab9"
+    },
+    {
+      "name": "Collection O Gauri Shree Hotel",
+      "address": "Block Number 8, Chittod Complex, Mp Nagar Zone-1, Near By Idfc First Bank, Bhopal",
+      "Rating": "4.0",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/109616/medium/pkvkcoigcqno.jpg"
+      },
+      "price": {
+        "price": "846",
+        "Mainprice": "3995",
+        "offer": "78% off",
+        "tax": "217"
+      },
+      "paragraph": {
+        "allInformation": "A space for new-age travelers.",
+        "short": "This hotel is serviced under the trade name of Gauri Shree Hotel as per quality standards of OYO",
+        "main": "I had an amazing check-in experience at this hotel. The staff was very welcoming and efficient. However, the room was disappointing with outdated furniture and limited amenities. The food was below average, lacking flavor and variety. Overall, I wouldn't recommend this hotel solely based on the room and food quality."
+      },
+      "Roomsize": "9 sqm",
+      "bed": "Classic",
+      "smoking": " No smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "5254"
+    },
+    {
+      "name": "Collection O Udit Plaza",
+      "address": "1, Maharana Pratap Nagar, Huzur Tahsil, Bhopal",
+      "Rating": "3.3",
+      "image": "https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/52f96f471637d0aa.jpg",
+      "images": {
+        "one": "https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/52f96f471637d0aa.jpg",
+        "two": "https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/52f96f471637d0aa.jpg",
+        "three": "https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/52f96f471637d0aa.jpg",
+        "four": "https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/52f96f471637d0aa.jpg",
+        "five": "https://images.oyoroomscdn.com/uploads/hotel_image/114858/medium/feaa1ddc3e9c99b1.jpg"
+      },
+      "price": {
+        "price": "855",
+        "Mainprice": "2548",
+        "offer": "66% off",
+        "tax": "213"
+      },
+      "paragraph": {
+        "allInformation": "Couples are welcome.",
+        "short": "You'll find an incredible hotel in a great location with a variety of amenities to make your stay memorable. We have a 24-hour front desk, free parking, and an elevator. You'll enjoy power backup, housekeeping, laundry service, room service and taxi service.",
+        "main": "Collection O 82719 Hotel Udit Plaza is an ideal place to stay in Bhopal. Featuring a dining area, kitchen and in-house restaurant, this hotel provides guests with all the amenities they need for their stay. Guests can also enjoy the 6 km from Upper Lake View Point and 6 km from Madhya Pradesh Tribal Museum that are both located nearby."
+      },
+      "Roomsize": "12 sqm",
+      "bed": "Classic",
+      "smoking": "  smoking",
+      "booking": {
+        "name": "bipin",
+        "email": "bahcbeh",
+        "number": "567898765",
+        "addharno": "456789",
+        "date": "456789",
+        "room": "678"
+      },
+      "id": "1b94"
+    }
+  ],
+  "HotelData": [
+    {
+      "id": "eca7",
+      "name": "Taj Lakefront Bhopal",
+      "booking": {
+        "name": "bipin singh",
+        "email": "bipin@gmail.com",
+        "number": "8052056711",
+        "addharno": "466453352442",
+        "date": "2024-12-25",
+        "room": "2"
+      }
+    },
+    {
+      "id": "0ce9",
+      "name": "Taj Lakefront Bhopal",
+      "booking": {
+        "name": "dfgh",
+        "email": "bipin@gmail.com",
+        "number": "1234567890",
+        "addharno": "098787878987",
+        "date": "2024-12-01",
+        "room": "0"
+      }
+    }
+  ]
 }

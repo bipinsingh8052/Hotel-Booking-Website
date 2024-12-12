@@ -59,6 +59,7 @@ async function run(){
 
 
  function BookNow(id,name ,img,rating,price,Mainprice){
+    console.log(id);
     let show_hotel= document.querySelector(".simple_container");
     show_hotel.style.display="block";
     show_hotel.innerHTML=`
@@ -157,8 +158,22 @@ async function run(){
    
 
 }
-function Booking(id){
+async function Booking(id){
     console.log(id)
+    let  data =await fetch(`http://localhost:3000/Hotel/${id}`);
+   
+    let resol =await data.json();
+    let data2=await fetch("http://localhost:3000/HotelData");
+    console.log("data1",resol.name);
+    let resolve2 =await data2.json("http://localhost:3000/HotelData");
+    console.log("data2",resolve2);
+    let hotel_Name= resol.name;
+
+    
+
+   
+
+
     console.log("booking");
     let name=document.querySelector(".show .card_conatiner .all_information .main_from .name .fullname input")
     let email=document.querySelector(".show .card_conatiner .all_information .main_from .name .email  input")
@@ -174,6 +189,8 @@ function Booking(id){
      console.log(room);
      console.log(no);
      console.log(addhar);
+
+    
      if(name.value== ""){
         name.focus();
         return false;
@@ -200,16 +217,42 @@ function Booking(id){
                  date.focus();
                  return false;
           }
-    else if(room.value >0){
+    else if(room.value == ""){
         room.focus();
         return false;
     }
 
     else{
+       
+        
+        let Booking_completed={
+            name:hotel_Name,
+            "booking":{
+                    "name":document.querySelector(".show .card_conatiner .all_information .main_from .name .fullname input").value,
+                    "email":document.querySelector(".show .card_conatiner .all_information .main_from .name .email  input").value,
+                    "number":document.querySelector(".show .card_conatiner .all_information .main_from .number .no_main input").value,
+                    "addharno":document.querySelector(".show .card_conatiner .all_information .main_from .number .addarno input").value,
+                    "date":document.querySelector(".show .card_conatiner .all_information .main_from .room .date input").value,
+                    "room":document.querySelector(".show .card_conatiner .all_information .main_from .room .book_room input").value
+                  }
+        }
+
+         fetch("http://localhost:3000/HotelData",{
+        method:"POST",
+        headers:{
+            'Content_type': 'application/json',
+        },
+        body:JSON.stringify(Booking_completed)
+         })
+        console.log("bOoking",Booking_completed);
         window.alert("Successful");
         Close_hotel();
         return true;
     }
+   
+
+
+    
 
 }
 function pay(){
