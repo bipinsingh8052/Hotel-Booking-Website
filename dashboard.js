@@ -22,12 +22,12 @@ async function data_display(){
     let information =`<div class="bookdetails">
         <table>
               <tr>
-                            <th>Id</th>
+                            <th>Booking ID</th>
                             
                             <th>Mobile No: </th>
                             <th>Hotel Name</th>
                             <th>Addhar No:</th>
-                            <th>Issue Date</th>
+                            <th>Booking Date</th>
                             <th>Rooms:</th>
                             <th>Coustmor Name</th>
                         </tr>
