@@ -873,6 +873,18 @@
         "date": "2024-12-01",
         "room": "0"
       }
+    },
+    {
+      "id": "0db4",
+      "name": "Taj Lakefront Bhopal",
+      "booking": {
+        "name": "rohit singh",
+        "email": "rohit@gmail.com",
+        "number": "1234567890",
+        "addharno": "123456789012",
+        "date": "2024-12-25",
+        "room": "1"
+      }
     }
   ]
 }
